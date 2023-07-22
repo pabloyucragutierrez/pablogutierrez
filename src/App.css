@@ -184,7 +184,7 @@ main {
 }
 /* sección inicio */
 .section_inicio .contenedor_inicio {
-  margin: 2rem auto;
+  margin: 2rem auto; 
 }
 .section_inicio .contenedor_inicio .contenedor1 article p {
   color: var(--color-theme);
