@@ -8,7 +8,7 @@ export function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <a href="/pablogutierrez">Pablo Gutierrez</a>
+        <a href="/steady-truffle-86eaa7">Pablo Gutierrez</a>
       </div>
       <nav className="menu_header">
         <Link to="/inicio">Inicio</Link>

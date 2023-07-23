@@ -12,7 +12,7 @@ import Error404 from "./assets/pages/Error404";
 function App() {
   return (
     <div className="container">
-      <BrowserRouter basename="/pablogutierrez">
+      <BrowserRouter basename="/steady-truffle-86eaa7">
         <Header />
         <main>
           <Routes>
