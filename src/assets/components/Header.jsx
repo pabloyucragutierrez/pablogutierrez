@@ -8,14 +8,14 @@ export function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <a href="/">Pablo Gutierrez</a>
+        <a href="/pablogutierrez">Pablo Gutierrez</a>
       </div>
       <nav className="menu_header">
         <Link to="/inicio">Inicio</Link>
         <Link to="/sobre-mi">Sobre mí</Link>
         <Link to="/proyectos">Proyectos</Link>
         <Link to="/contacto">Contacto</Link>
-      </nav>
+      </nav> 
       <div className="social_media">
         <a href="https://www.instagram.com/pabloyucragutierrez/" target="_blank" rel="noopener noreferrer">
           <ion-icon name="logo-instagram"></ion-icon>
