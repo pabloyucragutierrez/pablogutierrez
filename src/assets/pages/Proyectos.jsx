@@ -14,7 +14,7 @@ export function Proyectos() {
               <img src="https://rab-import-assets.s3.amazonaws.com/rabImport/header/logo-rab.jpg" alt="RAB Import" />
               <div className="text">
                 <p><b>RAB Import</b> (2023)</p>
-                <p>Rab Import es una empresa peruana con más de 40 años de experiencia en la importación, distribución y comercialización de máquinas de coser industriales de última tecnología para la industria textil, confecciones y calzado del Perú.</p>
+                <p>Desarrollador frontend en equipo web. Colaboré con desarrolladores backend y frontend para integrar funcionalidades. Optimicé rendimiento y experiencia del usuario.</p>
               </div>
             </article>
           </a>
@@ -23,7 +23,7 @@ export function Proyectos() {
               <img src="https://assets-apapachame.s3.amazonaws.com/qeswa-travel/footer/logo-q.png" alt="Qeswa travel" />
               <div className="text">
                 <p><b>Qeswa travel</b> (2022)</p>
-                <p>Es una agencia de viajes con una amplia experiencia en el ámbito del turismo. Tienen un grupo profesional cualificado con servicios de alta calidad y se mantiene para que su estancia en nuestro país sea su completa satisfacción y felicidad.</p>
+                <p>Desarrollador frontend en equipo web. Usé Laravel para conectar la interfaz con el backend. usando (HTML, CSS, JS). Colaboré con desarrolladores backend. Optimicé rendimiento y experiencia del usuario.</p>
               </div>
             </article>
           </a>
@@ -32,7 +32,7 @@ export function Proyectos() {
               <img src="https://rab-import-assets.s3.amazonaws.com/expoRab/logo.jpg" alt="Expo Rab" />
               <div className="text">
                 <p><b>Expo Rab</b> (2022)</p>
-                <p>Expo Rab es una página de exhibición y demostración, los últimos avances tecnológicos en la industrial textil - confecciones y calzado en el Perú.</p>
+                <p>Experiencia como desarrollador frontend en equipo web. usando el framework Laravel para enlazar frontend y backend. Codificación con HTML, Bootstrap, CSS, JS. Colaboración con desarrolladores y backend.</p>
               </div>
             </article>
           </a>
@@ -41,7 +41,7 @@ export function Proyectos() {
               <img src="https://rab-import-assets.s3.amazonaws.com/kaizen/logos/logokaizen.jpg" alt="Kaizen" />
               <div className="text">
                 <p><b>Kaizen</b> (2023)</p>
-                <p>Kaizen se especializa en máquinas especiales, proporcionando soluciones adaptadas a las necesidades específicas de cada industria. En Kaizen, marcando la diferencia, elevando el estándar y construyendo juntos un futuro exitoso.</p>
+                <p>Trabajé como desarrollador frontend en equipo web. Conexión frontend y backend mediante Laravel. Utilicé HTML, CSS, JS para la interfaz. Colaboración con diseñadores y backend.</p>
               </div>
             </article>
           </a>
@@ -50,7 +50,7 @@ export function Proyectos() {
               <img src="https://rab-import-assets.s3.amazonaws.com/repuestera/logo/logo.jpg" alt="La repuestera" />
               <div className="text">
                 <p><b>La repuestera</b> (2023)</p>
-                <p>Es una tienda líder en la importación y venta de repuestos y accesorios para la industria textil, cuentan con más de 30 años de experiencia en el rubro comercializando productos de alta calidad, originales y con garantía.</p>
+                <p>Desarrollé la página completa usando Laravel como backend. </p>
               </div>
             </article>
           </a>
@@ -59,7 +59,7 @@ export function Proyectos() {
               <img src="https://assets-apapachame.s3.amazonaws.com/rab-import/Rikea/header/logo.jpg" alt="Rikea" />
               <div className="text">
                 <p><b>Rikea</b> (2023)</p>
-                <p>RIKEA lleva más de 15 años ofreciendo soluciones eficientes para la industria de los sectores de la confección textil, bordados y confección de cuero, calzado y afines.</p>
+                <p>Desarrollador frontend en equipo web. Utilicé Laravel para integrar frontend y backend. Codificación con HTML, CSS, JS. Colaboración con diseñadores y backend. Enfoque en optimización del rendimiento y experiencia del usuario.</p>
               </div>
             </article>
           </a>
@@ -68,7 +68,7 @@ export function Proyectos() {
               <img src="https://rab-import-assets.s3.amazonaws.com/tecniRapido/logo/logo-tecniRapido.jpg" alt="TecniRapido y TecniBordado" />
               <div className="text">
                 <p><b>TecniRapido y TecniBordado</b> (2023)</p>
-                <p>TecniRapido y TecniBordado son 2 páginas en 1. Brindan soporte técnico para máquinas industriales de costura y calzado.</p>
+                <p>TecniRapido y TecniBordado son 2 páginas en 1. Usé HTML, CSS, Bootstrap y Javascript para poder realizar el diseño y la funcionalidad de la página</p>
               </div>
             </article>
           </a>
@@ -77,7 +77,7 @@ export function Proyectos() {
               <img src="https://assets-apapachame.s3.amazonaws.com/rab-import/bianchi/header/logo.jpg" alt="Bianchi" />
               <div className="text">
                 <p><b>Bianchi</b> (2023)</p>
-                <p>Bianchi es una empresa peruana importadora y comercializadora de productos de la industria textil y máquinas de coser con 37 años de experiencia impulsando el crecimiento textil del Perú, con equipos y maquinaria con tecnología de punta.</p>
+                <p>Desarrollo frontend (HTML, CSS, JavaScript, Laravel, Responsive)</p>
               </div>
             </article>
           </a>
@@ -86,7 +86,7 @@ export function Proyectos() {
               <img src="https://rab-import-assets.s3.amazonaws.com/sudamericana-coser/logos/1.jpg" alt="Sudamericana" />
               <div className="text">
                 <p><b>Sudamericana</b> (2023)</p>
-                <p>Con 17 años en el mercado, Sudamericana ofrece novedades y soluciones para propósitos especiales en la industria</p>
+                <p>Desarrollo de la web completa usando HTML, CSS, Javascript y Laravel para el backend.</p>
               </div>
             </article>
           </a>
@@ -95,7 +95,7 @@ export function Proyectos() {
               <img src="https://rab-import-assets.s3.amazonaws.com/sudamericana-cueros/logos/1.jpg" alt="Sudamericana maquinaria de cuero y calzado" />
               <div className="text">
                 <p><b>Sudamericana maquinaria de cuero y calzado</b> (2023)</p>
-                <p>Con cerca de 8 años en el mercado, Sudamericana Cuero y Calzado ofrece novedades y soluciones para propósitos especiales en la industria de maquinaria de cuero y calzado.</p>
+                <p>Desarrollo de la web completa usando HTML, CSS, Javascript y Laravel para el backend.</p>
               </div>
             </article>
           </a>
