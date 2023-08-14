@@ -6,7 +6,7 @@ export function Proyectos() {
   
   return (
     <section className="section section_proyectos">
-      <h2 className="title_section left">Mis proyectos</h2>
+      <h2 className="title_section right">Mis proyectos</h2>
       <div className="section_container contenedor_proyectos">
         <div className="contenedor1">
           <a href="https://www.rabimport.com/" target="_blank" rel="noopener noreferrer">

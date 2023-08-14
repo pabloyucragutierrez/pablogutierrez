@@ -253,7 +253,7 @@ main {
   color: var(--color-theme);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:flex-start;
   gap: 0.5rem;
   background-color: transparent;
   transition: 0.3s ease all;
