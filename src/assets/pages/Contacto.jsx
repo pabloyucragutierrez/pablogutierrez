@@ -27,7 +27,7 @@ export function Contacto() {
               <label htmlFor="nombres_y_apellidos">Mensaje </label>
               <textarea name="mensaje" id="" autoComplete="on" placeholder="Mensaje (opcional)"></textarea>
             </div>
-            <div>
+            <div style={{gap:".5rem"}}>
             <input type="submit" value="Enviar formulario" />
             <span className="loader"></span>
             <p className="text-exito"></p>

@@ -52,7 +52,7 @@ export function Cv() {
                 <li>Nací en Cusco, Perú. 22 de Junio de 2003</li>
                 <li>Vivo en Cusco, Perú</li>
                 <li>
-                  <a href="https://www.canva.com/design/DAFdLtjQMnA/G6f4vhZSk8KnBjHR9yvkmg/watch?utm_content=DAFdLtjQMnA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">Cv</a>
+                  <a href="https://drive.google.com/file/d/1CHDwewTXt35OgiRsMsZYaBzl1RsAsnwo/view?usp=sharing" target="_blank">Cv</a>
                 </li>
               </ul>
             </article>

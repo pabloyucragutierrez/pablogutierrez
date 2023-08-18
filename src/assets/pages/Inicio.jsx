@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import code from "/code-home.jpg"
 export function Inicio() {
   useEffect(() => {
     document.title = 'Pablo Gutierrez - Inicio'
@@ -11,11 +12,11 @@ export function Inicio() {
         <div className="contenedor1">
           <article>
             <p>Bienvenido a mi página web, soy Desarrollador Frontend.</p>
-            <p>Mi objetivo es crear soluciones web elegantes y funcionales que hagan que los usuarios se enamoren de la experiencia en línea. Con una base sólida en HTML, CSS y JavaScript, siempre estoy buscando aprender y dominar las últimas tendencias y tecnologías para ofrecer resultados excepcionales.</p>
-            <p>En la sección de Proyectos, podrás encontrar algunos de mis trabajos más recientes y notables. Desde landing page hasta tiendas online.</p>
+            <p>¡Hola! Soy un apasionado desarrollador frontend con habilidades en tecnologías frontend. Transformo diseños en código usando HTML, CSS y JavaScript, y tengo experiencia en frameworks como React. Con capacidad para consumir APIs, he desarrollado aplicaciones web interactivas y responsivas. Siempre estoy en búsqueda de oportunidades para aprender y aplicar las últimas tendencias en tecnología frontend, con el objetivo de crear interfaces intuitivas y modernas.</p>
+            <p>En la sección de Proyectos, podrás encontrar algunos proyectos en los que pude participar como desarrollador frontend.</p>
           </article>
           <article>
-            <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_1280.jpg" alt="Desarrollo frontend" />
+            <img src={code} alt="Desarrollo frontend" />
           </article>
         </div>
       </div>

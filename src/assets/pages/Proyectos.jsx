@@ -14,7 +14,7 @@ export function Proyectos() {
               <img src="https://rab-import-assets.s3.amazonaws.com/rabImport/header/logo-rab.jpg" alt="RAB Import" />
               <div className="text">
                 <p><b>RAB Import</b> (2023)</p>
-                <p>Desarrollador frontend en equipo web. Colaboré con desarrolladores backend y frontend para integrar funcionalidades. Optimicé rendimiento y experiencia del usuario.</p>
+                <p>Desarrollé sliders, secciones, formularios, etc. Mejoré el SEO, optimicé el código</p>
               </div>
             </article>
           </a>
