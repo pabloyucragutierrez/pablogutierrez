@@ -436,6 +436,9 @@ main {
   }
 }
 @media (max-width:580px){
+  .section_cv .contenedor_cv .contenedor2 .contenedor_acerca .image {
+    width: 80%;
+  }
   .section_cv .contenedor_cv .contenedor2 .contenedor_acerca .image img{
     width: 100%;
   }
