@@ -36,7 +36,7 @@ export function Proyectos() {
               </div>
             </article>
           </a>
-          <a href="https://exporab.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://kaizen.com.pe/" target="_blank" rel="noopener noreferrer">
             <article>
               <img src="https://rab-import-assets.s3.amazonaws.com/kaizen/logos/logokaizen.jpg" alt="Kaizen" />
               <div className="text">
