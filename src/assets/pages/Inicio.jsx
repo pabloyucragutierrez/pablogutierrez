@@ -11,7 +11,7 @@ export function Inicio() {
       <div className="section_container contenedor_inicio">
         <div className="contenedor1">
           <article>
-            <p>Bienvenido a mi página web, soy Desarrollador Frontend.</p>
+            <p>¡Hola! Bienvenido a mi sitio web. 😀</p>
             <p>¡Hola! Soy un desarrollador frontend con habilidades en tecnologías frontend. Transformo diseños en código usando HTML, CSS y JavaScript, y tengo experiencia en frameworks como React. Con capacidad para consumir APIs, he desarrollado aplicaciones web interactivas y responsivas. Siempre estoy en búsqueda de oportunidades para aprender y aplicar las últimas tendencias en tecnología frontend, con el objetivo de crear interfaces intuitivas y modernas.</p>
             <p>En la sección de Proyectos, podrás encontrar algunos proyectos en los que pude participar como desarrollador frontend.</p>
           </article>
