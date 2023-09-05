@@ -333,12 +333,18 @@ main {
 .section_contacto .contenedor_contacto .contenedor1 form div textarea::placeholder{
   color: #fff;
 }
+.section_contacto .contenedor_contacto .contenedor1 form div textarea:focus,
+.section_contacto .contenedor_contacto .contenedor1 form div input[type="email"]:focus,
+.section_contacto .contenedor_contacto .contenedor1 form div input[type="text"]:focus {
+  border: 2px solid var(--color-theme);
+}
 .section_contacto .contenedor_contacto .contenedor1 form div textarea,
 .section_contacto .contenedor_contacto .contenedor1 form div input[type="email"],
 .section_contacto .contenedor_contacto .contenedor1 form div input[type="text"] {
   padding: .7rem .5rem;
-  border: 1px solid #000;
   caret-color: #fff;
+  transition: .3s ease all;
+  border: none;
   width: 100%;
   background-color: #4365a0;
   color: #fff;
