@@ -22,17 +22,9 @@ export function Cv() {
         <div className="contenedor1">
           <article>
             <p>
-              ¡Hola! Soy Pablo, un apasionado desarrollador frontend. Mi camino
-              en el desarrollo web comenzó cuando, de adolescente, me encontré
-              maravillado con la posibilidad de dar vida a ideas y conceptos a
-              través del código.
+              Dsifruto desarrollar interfaces de usuario usando las tecnologías adecuadas, así como también la optimización y el SEO para el buen posicionamiento y la carga del sitio web. <br />
             </p>
-            <p>
-              A medida que exploraba el mundo del desarrollo frontend, me di
-              cuenta de que no solo se trataba de crear sitios web, sino de
-              crear conexiones significativas entre las personas y la
-              tecnología.
-            </p>
+            <p>Mi camino en el desarrollo web comenzó cuando, de adolescente, me encontré maravillado con la posibilidad de dar vida a ideas y conceptos a través del código. He trabajado en una variedad de proyectos, desde sitios web informativos hasta tiendas en linea, siempre desafiándome a mí mismo y creciendo en el proceso.</p>
             <br />
           </article>
         </div>

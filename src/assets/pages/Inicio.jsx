@@ -12,7 +12,7 @@ export function Inicio() {
         <div className="contenedor1">
           <article>
             <p>¡Hola! Bienvenido a mi sitio web. 😀</p>
-            <p>Soy un desarrollador frontend con habilidades en tecnologías frontend. Transformo diseños en código usando HTML, CSS y JavaScript, y tengo experiencia en frameworks como React. Con capacidad para consumir APIs, he desarrollado aplicaciones web interactivas y responsivas. Siempre estoy en búsqueda de oportunidades para aprender y aplicar las últimas tendencias en tecnología frontend, con el objetivo de crear interfaces intuitivas y modernas.</p>
+            <p>Transformo diseños en código usando HTML, CSS y JavaScript, y tengo experiencia en frameworks como React. Con capacidad para consumir APIs, he desarrollado aplicaciones web interactivas y responsivas. Siempre estoy en búsqueda de oportunidades para aprender y aplicar las últimas tendencias en tecnología frontend, con el objetivo de crear interfaces intuitivas y modernas.</p>
             <p>En la sección de Proyectos, podrás encontrar algunos proyectos en los que pude participar como desarrollador frontend.</p>
           </article>
           <article>
