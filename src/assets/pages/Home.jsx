@@ -8,7 +8,7 @@ export function Home() {
                 <h2>Pablo Gutierrez, <br /> creativo y dedicado... <br /> <span>Desarrollador Frontend</span> </h2>
             </article>
             <article className='image'>
-                <img src={pg} />
+                <img src={pg} alt='foto de Pablo Gutierrez'/>
             </article>
         </div>
     </section>

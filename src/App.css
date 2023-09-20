@@ -176,11 +176,12 @@ main {
 .section_home .contenedor_home .image img {
   width: 22rem;
   display: block;
+  color: var(--color-theme);
   margin: auto;
   height: 22rem;
   object-fit: cover;
-  object-position:0rem;
   border-radius: 50%;
+  text-align: center;
 }
 /* sección inicio */
 .section_inicio .contenedor_inicio {
@@ -227,6 +228,7 @@ main {
 .section_cv .contenedor_cv .contenedor2 .contenedor_acerca .image img {
   width: 18rem;
   height: 23rem;
+  color: var(--color-theme);
   border-radius: 20px;
   object-fit: cover;
 }
