@@ -34,7 +34,7 @@ export function Cv() {
           <div className="contenedor_acerca">
             <article className="image">
               <img
-                src={pg}
+                src=""
                 alt="Foto de Pablo Gutierrez"
               />
             </article>
