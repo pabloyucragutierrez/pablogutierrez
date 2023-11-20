@@ -9,7 +9,6 @@ import sass from "/images/icono-sass.png"
 import html from "/images/icono-html.png"
 import css from "/images/icono-css.png"
 import javascript from "/images/icono-javascript.png" 
-import pg from "/pablogutierrez.jpg"
 export function Cv() {
   useEffect(() => {
     document.title = 'Pablo Gutierrez - Sobre mí'
