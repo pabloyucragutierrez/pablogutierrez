@@ -1,19 +1,19 @@
 import React, { useEffect } from "react";
-import react from "/images/icono-react.png"
-import reactrouter from "/images/icono-react-router.png"
-import laravel from "/images/icono-laravel.png"
-import bootstrap from "/images/icono-bootstrap.png"
-import git from "/images/icono-git.svg"
-import aws from "/images/icono-aws.png"
-import sass from "/images/icono-sass.png"
-import html from "/images/icono-html.png"
-import css from "/images/icono-css.png"
-import javascript from "/images/icono-javascript.png" 
+import react from "/images/icono-react.png";
+import reactrouter from "/images/icono-react-router.png";
+import laravel from "/images/icono-laravel.png";
+import bootstrap from "/images/icono-bootstrap.png";
+import git from "/images/icono-git.svg";
+import aws from "/images/icono-aws.png";
+import sass from "/images/icono-sass.png";
+import html from "/images/icono-html.png";
+import css from "/images/icono-css.png";
+import javascript from "/images/icono-javascript.png";
 export function Cv() {
   useEffect(() => {
-    document.title = 'Pablo Gutierrez - Sobre mí'
-  }, [])
- 
+    document.title = "Pablo Gutierrez - Sobre mí";
+  }, []);
+
   return (
     <section className="section section_cv">
       <h2 className="title_section left">Sobre mí 🧑🏻</h2>
@@ -21,9 +21,17 @@ export function Cv() {
         <div className="contenedor1">
           <article>
             <p>
-              Disfruto desarrollar interfaces de usuario usando las tecnologías adecuadas, así como también la optimización y el SEO para el buen posicionamiento y la carga del sitio web. <br />
+              Disfruto desarrollar interfaces de usuario usando las tecnologías
+              adecuadas, así como también la optimización y el SEO para el buen
+              posicionamiento y la carga del sitio web. <br />
             </p>
-            <p>Mi camino en el desarrollo web comenzó cuando, de adolescente, me encontré maravillado con la posibilidad de dar vida a ideas y conceptos a través del código. He trabajado en una variedad de proyectos, desde sitios web informativos hasta tiendas en linea, siempre desafiándome a mí mismo y creciendo en el proceso.</p>
+            <p>
+              Mi camino en el desarrollo web comenzó cuando, de adolescente, me
+              encontré maravillado con la posibilidad de dar vida a ideas y
+              conceptos a través del código. He trabajado en una variedad de
+              proyectos, desde sitios web informativos hasta tiendas en linea,
+              siempre desafiándome a mí mismo y creciendo en el proceso.
+            </p>
             <br />
           </article>
         </div>
@@ -32,10 +40,7 @@ export function Cv() {
           <h2 className="title_section right">Yo soy</h2>
           <div className="contenedor_acerca">
             <article className="image">
-              <img
-                src=""
-                alt="Foto de Pablo Gutierrez"
-              />
+              <img src="" alt="Foto de Pablo Gutierrez" />
             </article>
             <article className="text">
               <ul>
@@ -43,7 +48,12 @@ export function Cv() {
                 <li>Nací en Cusco, Perú. 22 de Junio de 2003</li>
                 <li>Vivo en Cusco, Perú</li>
                 <li>
-                  <a href="https://drive.google.com/file/d/1CHDwewTXt35OgiRsMsZYaBzl1RsAsnwo/view?usp=sharing" target="_blank">Cv</a>
+                  <a
+                    href="https://drive.google.com/file/d/1YLhBGnVGQpB3-EXHwBPwpIo3UQ3U1BOg/view"
+                    target="_blank"
+                  >
+                    Cv
+                  </a>
                 </li>
               </ul>
             </article>
@@ -54,77 +64,62 @@ export function Cv() {
           <h2 className="title_section left">Mis habilidades</h2>
           <div className="contenedor_habilidades">
             <button>
-              <img
-                src={react}
-                alt="React js"
-              />
+              <img src={react} alt="React js" />
               React js
             </button>
             <button>
-              <img
-                src={reactrouter}
-                alt="React Router"
-              />
+              <img src={reactrouter} alt="React Router" />
               React Router
             </button>
             <button>
-              <img
-                src={laravel}
-                alt="Laravel "
-              />
+              <img src={laravel} alt="Laravel " />
               Laravel (Básico)
             </button>
             <button>
-              <img
-                src={bootstrap}
-                alt="Bootstrap"
-              />
+              <img src={bootstrap} alt="Bootstrap" />
               Bootstrap
             </button>
             <button>
-              <img
-                src={git}
-                alt="Git"
-              />
+              <img src={git} alt="Git" />
               Git
             </button>
 
             <button>
-              <img
-                src={aws}
-                alt="AWS"
-              />
+              <img src={aws} alt="AWS" />
               AWS (Básico)
             </button>
             <button>
-              <img
-                src={sass}
-                alt="Sass"
-              />
+              <img src={sass} alt="Sass" />
               Sass
             </button>
             <button>
-              <img
-                src={html}
-                alt="HTML"
-              />
+              <img src={html} alt="HTML" />
               HTML
             </button>
 
             <button>
-              <img
-                src={css}
-                alt="CSS"
-              />
+              <img src={css} alt="CSS" />
               CSS
             </button>
             <button>
-              <img
-                src={javascript}
-                alt="JavaScript"
-              />
+              <img src={javascript} alt="JavaScript" />
               JavaScript
             </button>
+          </div>
+        </div>
+        <div className="hr_section"></div>
+        <div className="contenedor4">
+          <h2 className="title_section right">Educación</h2>
+          <div className="contenedor_educacion">
+            <ol>
+              <li>Eterno Autodidacta</li>
+              <li>
+                  Introducción al Desarrollo Web en <a href="https://learndigital.withgoogle.com/link/1nur091p2ww" target="_blank" rel="noopener noreferrer">Google Actívate</a> (ID del certificado: T3B YY6 RJ2)
+              </li>
+              <li>
+                 Desarrollo de Sistemas de Información en <a href="https://khipu.edu.pe/" target="_blank" rel="noopener noreferrer">Khipu</a>
+              </li>
+            </ol>
           </div>
         </div>
       </div>

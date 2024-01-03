@@ -15,6 +15,7 @@ export function Formulario(e) {
       .then((json) => {
         text.textContent = "Formulario enviado con éxito";
         loader.classList.remove("active");
+        console.log(json);
         e.target.reset();
       })
       .catch((err) => {

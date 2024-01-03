@@ -61,8 +61,8 @@ body{
 }
 .hr_section {
   width: 80%;
-  height: 2px;
-  background-color: rgb(120, 108, 108);
+  height: 1px;
+  background-color: rgba(120, 108, 108, 0.516);
   margin: auto;
 }
 main {
@@ -263,6 +263,17 @@ main {
   outline: none;
   height: 3.5rem;
   cursor: auto;
+}
+.section_cv .contenedor_cv .contenedor4 .contenedor_educacion {
+  margin: 1.5rem auto;
+}
+.section_cv .contenedor_cv .contenedor4 .contenedor_educacion li a{
+  color:#4365a0;
+}
+.section_cv .contenedor_cv .contenedor4 .contenedor_educacion li{
+  color: var(--color-theme);
+  font-size: var(--size-text);
+  margin: .3rem 0;
 }
 /* proyectos */
 .section_proyectos .contenedor_proyectos {
