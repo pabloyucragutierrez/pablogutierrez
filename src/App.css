@@ -464,6 +464,9 @@ main {
   }
 }
 @media (max-width:580px){
+  .section_cv .contenedor_cv .contenedor4 .contenedor_educacion {
+  width: 90%;
+  }
   .section_cv .contenedor_cv .contenedor2 .contenedor_acerca .image {
     width: 80%;
   }
