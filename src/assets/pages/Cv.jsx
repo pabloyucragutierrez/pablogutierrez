@@ -9,6 +9,7 @@ import sass from "/images/icono-sass.png";
 import html from "/images/icono-html.png";
 import css from "/images/icono-css.png";
 import javascript from "/images/icono-javascript.png";
+import angular from "/images/icono-angular.png";
 export function Cv() {
   useEffect(() => {
     document.title = "Pablo Gutierrez - Sobre mí";
@@ -64,8 +65,12 @@ export function Cv() {
           <h2 className="title_section left">Mis habilidades</h2>
           <div className="contenedor_habilidades">
             <button>
+              <img src={angular} alt="Angular" />
+              Angular
+            </button>
+            <button>
               <img src={react} alt="React js" />
-              React js
+              Angular
             </button>
             <button>
               <img src={reactrouter} alt="React Router" />

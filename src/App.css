@@ -405,6 +405,15 @@ main {
 }
 
 /* movil y tablet*/
+@media (max-width:900px) {
+  .section_home .contenedor_home .text h2 {
+    font-size: 2rem;
+  }
+  .section_home .contenedor_home .image img {
+  width: 15rem;
+  height: 15rem;
+  }
+}
 @media (max-width:768px) {
   :root {
     --size-text: 1rem;
