@@ -70,7 +70,7 @@ export function Cv() {
             </button>
             <button>
               <img src={react} alt="React js" />
-              Angular
+              React js
             </button>
             <button>
               <img src={reactrouter} alt="React Router" />
