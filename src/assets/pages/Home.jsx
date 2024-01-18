@@ -1,5 +1,5 @@
 import React from 'react'
-import pg from "/foto-home.jpg"
+import pg from "/foto-home.png"
 export function Home() {
   return (
     <section className='section_home'>

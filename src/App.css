@@ -179,6 +179,7 @@ main {
   color: var(--color-theme);
   margin: auto;
   height: 22rem;
+  /* object-position: 0 -.5rem;  */
   object-fit: cover;
   border-radius: 50%;
   text-align: center;
