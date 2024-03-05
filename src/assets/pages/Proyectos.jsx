@@ -9,6 +9,24 @@ export function Proyectos() {
       <h2 className="title_section right">Mis proyectos</h2>
       <div className="section_container contenedor_proyectos">
         <div className="contenedor1">
+          <a href="https://vivargo.com/es/" target="_blank" rel="noopener noreferrer">
+            <article>
+              <img src="https://vivargo.com/static/img/logo.png" alt="Vivargo" />
+              <div className="text">
+                <p><b>Vivargo</b> (2024)</p>
+                <p>Desarrollo de modales y sliders con Angular.</p>
+              </div>
+            </article>
+          </a>
+          <a href="https://tecfordata.com/" target="_blank" rel="noopener noreferrer">
+            <article>
+              <img src="https://tecfordata.com/assets/logo.png" alt="Tecfordata" />
+              <div className="text">
+                <p><b>Tecfordata</b> (2024)</p>
+                <p>Desarrollo de la web usando Angular. </p>
+              </div>
+            </article>
+          </a>
           <a href="https://www.rabimport.com/" target="_blank" rel="noopener noreferrer">
             <article>
               <img src="https://rab-import-assets.s3.amazonaws.com/rabImport/header/logo-rab.jpg" alt="RAB Import" />
@@ -96,15 +114,6 @@ export function Proyectos() {
               <div className="text">
                 <p><b>Sudamericana maquinaria de cuero y calzado</b> (2023)</p>
                 <p>Desarrollo de la web completa usando HTML, CSS, Javascript y Laravel para el backend.</p>
-              </div>
-            </article>
-          </a>
-          <a href="https://tecfordata.com/" target="_blank" rel="noopener noreferrer">
-            <article>
-              <img src="https://tecfordata.com/assets/logo.png" alt="Tecfordata" />
-              <div className="text">
-                <p><b>Tecfordata</b> (2024)</p>
-                <p>Desarrollo de la web usando Angular. </p>
               </div>
             </article>
           </a>
