@@ -98,11 +98,12 @@ export function Proyectos() {
                 <p>Desarrollo de la web completa usando HTML, CSS, Javascript y Laravel para el backend.</p>
               </div>
             </article>
+          </a>
           <a href="https://tecfordata.com/" target="_blank" rel="noopener noreferrer">
             <article>
               <img src="https://tecfordata.com/assets/logo.png" alt="Tecfordata" />
               <div className="text">
-                <p><b>Tecfordata</b> (2023)</p>
+                <p><b>Tecfordata</b> (2024)</p>
                 <p>Desarrollo de la web usando Angular. </p>
               </div>
             </article>
