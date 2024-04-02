@@ -4,9 +4,11 @@ export function Formulario(e) {
     text = document.querySelector(".text-exito"),
     errorEmail = document.querySelector(".error_email"),
     errorNombre = document.querySelector(".error_nombre"),
+    btnSubmit = document.querySelector(".btnSubmit"),
     errorAll = document.querySelectorAll(".error");
   function loadFormulario() {
     loader.classList.add("active");
+    btnSubmit.disabled = true;
     fetch("https://formsubmit.co/ajax/pabloyucragutierrez@gmail.com", {
       method: "POST",
       body: new FormData(e.target),
@@ -15,11 +17,13 @@ export function Formulario(e) {
       .then((json) => {
         text.textContent = "Formulario enviado con éxito";
         loader.classList.remove("active");
+        btnSubmit.disabled = false;
         console.log(json);
         e.target.reset();
       })
       .catch((err) => {
         loader.classList.remove("active");
+        btnSubmit.disabled = false;
         text.textContent = `Error ${err.status}: ${err.statusText}`;
       })
       .finally(() =>

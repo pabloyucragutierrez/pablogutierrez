@@ -20,7 +20,7 @@ export function Proyectos() {
           </a>
           <a href="https://tecfordata.com/" target="_blank" rel="noopener noreferrer">
             <article>
-              <img src="https://tecfordata.com/assets/logo.png" alt="Tecfordata" />
+              <img src="https://tecfordata.com/assets/logo_dark.png" alt="Tecfordata" />
               <div className="text">
                 <p><b>Tecfordata</b> (2024)</p>
                 <p>Desarrollo de la web usando Angular. </p>

@@ -28,7 +28,7 @@ export function Contacto() {
               <textarea name="mensaje" id="" autoComplete="on" placeholder="Mensaje (opcional)"></textarea>
             </div>
             <div style={{gap:".5rem"}}>
-            <input type="submit" value="Enviar formulario" />
+            <input className="btnSubmit" type="submit" value="Enviar formulario" />
             <span className="loader"></span>
             <p className="text-exito"></p>
             </div>
