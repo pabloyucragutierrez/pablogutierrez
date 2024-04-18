@@ -10,6 +10,7 @@ import html from "/images/icono-html.png";
 import css from "/images/icono-css.png";
 import javascript from "/images/icono-javascript.png";
 import angular from "/images/icono-angular.png";
+import astro from "/images/icono-astro.png";
 export function Cv() {
   useEffect(() => {
     document.title = "Pablo Gutierrez - Sobre mí";
@@ -73,8 +74,8 @@ export function Cv() {
               React js
             </button>
             <button>
-              <img src={reactrouter} alt="React Router" />
-              React Router
+              <img src={astro} alt="Astro" className="filter_img" />
+              Astro
             </button>
             <button>
               <img src={laravel} alt="Laravel " />
