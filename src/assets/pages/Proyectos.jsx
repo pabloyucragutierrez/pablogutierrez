@@ -9,8 +9,8 @@ export function Proyectos() {
       <h2 className="title_section right">Mis proyectos</h2>
       <div className="section_container contenedor_proyectos">
         <div className="contenedor1">
-          {/* <a
-            href="https://cloudsen12.github.io/"
+          <a
+            href="https://cloudsen12plus.github.io/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -29,7 +29,7 @@ export function Proyectos() {
                 </p>
               </div>
             </article>
-          </a> */}
+          </a>
           <a
             href="https://kintiny.pe/"
             target="_blank"
