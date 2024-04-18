@@ -26,7 +26,7 @@ export function Header() {
         <a href="https://www.linkedin.com/in/pabloyucragutierrez/" target="_blank" rel="noopener noreferrer">
           <ion-icon name="logo-linkedin"></ion-icon>
         </a>
-        <button className="contenedor_icon">
+        <button className="contenedor_icon" aria-label={theme ? "Cambiar a tema claro" : "Cambiar a tema oscuro"}>
           {theme ? (
             <ion-icon
               name="sunny-outline"
