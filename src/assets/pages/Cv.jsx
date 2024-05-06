@@ -52,7 +52,7 @@ export function Cv() {
                 <li>Vivo en Cusco, Perú</li>
                 <li>
                   <a
-                    href="https://drive.google.com/file/d/1qmIW0z3azDFiAkDUiyCayVXVZXtNjsXR/view"
+                    href="https://drive.google.com/file/d/1rfMitz3KeffETZqBc-CdEde8MpatvbE8/view"
                     target="_blank"
                   >
                     Cv
