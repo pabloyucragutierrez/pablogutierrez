@@ -12,27 +12,27 @@
   filter: var(--filter-img);
 }
 /* estilos generales */
-.section_error .error_ruta{
+.section_error .error_ruta {
   display: block;
   color: var(--color-theme);
 }
-.section_error p{
+.section_error p {
   color: var(--color-theme);
 }
-.section_error .ruta_404{
+.section_error .ruta_404 {
   color: red;
   font-size: 4rem;
 }
-body{
+body {
   min-height: 100vh;
   position: relative;
   background-color: #0b0e2d;
-  transition: .5s ease all;
+  transition: 0.5s ease all;
 }
-.light-fondo{
+.light-fondo {
   background-color: #fff;
 }
-.light{
+.light {
   color: #fff;
 }
 .section {
@@ -81,7 +81,7 @@ main {
   width: 100%;
   display: flex;
   position: fixed;
-  transition: .5s ease all;
+  transition: 0.5s ease all;
   top: 0;
   justify-content: space-between;
   align-items: center;
@@ -90,8 +90,9 @@ main {
   flex-wrap: wrap;
   background-color: #0b0e2d;
 }
-.header nav {
+.header nav ul {
   display: flex;
+  list-style: none;
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -122,7 +123,7 @@ main {
   color: var(--color-theme);
 }
 .header .social_media button {
-  transition: .5s ease all;
+  transition: 0.5s ease all;
   background-color: transparent;
   outline: none;
   font-size: var(--size-icons);
@@ -191,7 +192,7 @@ main {
 }
 /* sección inicio */
 .section_inicio .contenedor_inicio {
-  margin: 2rem auto; 
+  margin: 2rem auto;
 }
 .section_inicio .contenedor_inicio .contenedor1 article p {
   color: var(--color-theme);
@@ -261,7 +262,7 @@ main {
   color: var(--color-theme);
   display: flex;
   align-items: center;
-  justify-content:flex-start;
+  justify-content: flex-start;
   gap: 0.5rem;
   background-color: transparent;
   transition: 0.3s ease all;
@@ -273,13 +274,13 @@ main {
 .section_cv .contenedor_cv .contenedor4 .contenedor_educacion {
   margin: 1.5rem auto;
 }
-.section_cv .contenedor_cv .contenedor4 .contenedor_educacion li a{
-  color:#4365a0;
+.section_cv .contenedor_cv .contenedor4 .contenedor_educacion li a {
+  color: #4365a0;
 }
-.section_cv .contenedor_cv .contenedor4 .contenedor_educacion li{
+.section_cv .contenedor_cv .contenedor4 .contenedor_educacion li {
   color: var(--color-theme);
   font-size: var(--size-text);
-  margin: .3rem 0;
+  margin: 0.3rem 0;
 }
 /* proyectos */
 .section_proyectos .contenedor_proyectos {
@@ -324,11 +325,17 @@ main {
   color: var(--color-theme);
   text-decoration: underline;
 }
-.section_contacto .contenedor_contacto .contenedor1 form div label .error.active{
+.section_contacto
+  .contenedor_contacto
+  .contenedor1
+  form
+  div
+  label
+  .error.active {
   visibility: visible;
 }
-.section_contacto .contenedor_contacto .contenedor1 form div label .error{
-  pointer-events:none;
+.section_contacto .contenedor_contacto .contenedor1 form div label .error {
+  pointer-events: none;
   color: rgb(255, 25, 25);
   visibility: hidden;
 }
@@ -347,50 +354,89 @@ main {
   flex-direction: column;
   gap: 0.5rem;
 }
-.section_contacto .contenedor_contacto .contenedor1 form div input[type="email"]::placeholder,
-.section_contacto .contenedor_contacto .contenedor1 form div input[type="text"]::placeholder,
-.section_contacto .contenedor_contacto .contenedor1 form div textarea::placeholder{
+.section_contacto
+  .contenedor_contacto
+  .contenedor1
+  form
+  div
+  input[type="email"]::placeholder,
+.section_contacto
+  .contenedor_contacto
+  .contenedor1
+  form
+  div
+  input[type="text"]::placeholder,
+.section_contacto
+  .contenedor_contacto
+  .contenedor1
+  form
+  div
+  textarea::placeholder {
   color: #fff;
 }
 .section_contacto .contenedor_contacto .contenedor1 form div textarea:focus,
-.section_contacto .contenedor_contacto .contenedor1 form div input[type="email"]:focus,
-.section_contacto .contenedor_contacto .contenedor1 form div input[type="text"]:focus {
+.section_contacto
+  .contenedor_contacto
+  .contenedor1
+  form
+  div
+  input[type="email"]:focus,
+.section_contacto
+  .contenedor_contacto
+  .contenedor1
+  form
+  div
+  input[type="text"]:focus {
   border: 2px solid var(--color-theme);
 }
 .section_contacto .contenedor_contacto .contenedor1 form div textarea,
-.section_contacto .contenedor_contacto .contenedor1 form div input[type="email"],
-.section_contacto .contenedor_contacto .contenedor1 form div input[type="text"] {
-  padding: .7rem .5rem;
+.section_contacto
+  .contenedor_contacto
+  .contenedor1
+  form
+  div
+  input[type="email"],
+.section_contacto
+  .contenedor_contacto
+  .contenedor1
+  form
+  div
+  input[type="text"] {
+  padding: 0.7rem 0.5rem;
   caret-color: #fff;
-  transition: .3s ease all;
+  transition: 0.3s ease all;
   border: none;
   width: 100%;
   background-color: #4365a0;
   color: #fff;
-  border-radius:15px;
+  border-radius: 15px;
   outline: none;
 }
-.section_contacto .contenedor_contacto .contenedor1 form input[type="submit"]:hover{
+.section_contacto
+  .contenedor_contacto
+  .contenedor1
+  form
+  input[type="submit"]:hover {
   transform: scale(1.05);
 }
-.section_contacto .contenedor_contacto .contenedor1 form input[type="submit"]{
-  border-radius:15px;
+.section_contacto .contenedor_contacto .contenedor1 form input[type="submit"] {
+  border-radius: 15px;
   width: 10rem;
   border: none;
-  transition: .3s ease all;
+  transition: 0.3s ease all;
   outline: none;
-  padding: .7rem 0;
+  padding: 0.7rem 0;
   cursor: pointer;
 }
-.section_contacto .contenedor_contacto .contenedor1 form div textarea{
+.section_contacto .contenedor_contacto .contenedor1 form div textarea {
   height: 5rem;
   resize: none;
 }
-.text-exito{
+.text-exito {
   margin: 0;
   color: var(--color-theme);
 }
-.loader.active{
+.loader.active {
   display: block;
 }
 .loader {
@@ -406,88 +452,95 @@ main {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* movil y tablet*/
-@media (max-width:900px) {
+@media (max-width: 900px) {
   .section_home .contenedor_home .text h2 {
     font-size: 2rem;
   }
   .section_home .contenedor_home .image img {
-  width: 15rem;
-  height: 15rem;
+    width: 15rem;
+    height: 15rem;
   }
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
   :root {
     --size-text: 1rem;
   }
-  .section_cv .contenedor_cv .contenedor3 .contenedor_habilidades button{
+  .section_cv .contenedor_cv .contenedor3 .contenedor_habilidades button {
     width: 100%;
     justify-content: flex-start;
   }
   /* main{
     min-height: auto;
   } */
-  .title_section{
+  .title_section {
     font-size: 2rem;
   }
-  .section{
+  .section {
     width: 95%;
     margin-top: 11rem;
   }
-  .header{
+  .header {
     justify-content: center;
     gap: 1rem;
   }
-  .header nav{
+  .header nav {
+    width: 100%;
+  }
+  .header nav ul {
     width: 100%;
     gap: 0;
     justify-content: space-evenly;
   }
-  .header nav a{
+  .header nav a {
     font-weight: normal;
     font-size: 1rem;
   }
-  .header .social_media{
+  .header .social_media {
     width: 100%;
     justify-content: space-evenly;
   }
-  .section_home .contenedor_home .text h2{
+  .section_home .contenedor_home .text h2 {
     font-size: 1.8rem;
     text-align: center;
     transform: rotate(0);
   }
-  .section_home .contenedor_home .image img{
+  .section_home .contenedor_home .image img {
     width: 9rem;
     height: 9rem;
   }
-  .section_home .contenedor_home{
+  .section_home .contenedor_home {
     flex-direction: column-reverse;
     gap: 1rem;
   }
 }
-@media (max-width:580px){
+@media (max-width: 580px) {
   .section_cv .contenedor_cv .contenedor4 .contenedor_educacion {
-  width: 90%;
+    width: 90%;
   }
   .section_cv .contenedor_cv .contenedor2 .contenedor_acerca .image {
     width: 80%;
   }
-  .section_cv .contenedor_cv .contenedor2 .contenedor_acerca .image img{
+  .section_cv .contenedor_cv .contenedor2 .contenedor_acerca .image img {
     width: 100%;
   }
-  .section_inicio .contenedor_inicio .contenedor1 article img{
+  .section_inicio .contenedor_inicio .contenedor1 article img {
     width: 100%;
   }
 }
-@media (max-width:280px){
-  .section_home .contenedor_home .text h2{
+@media (max-width: 280px) {
+  .section_home .contenedor_home .text h2 {
     font-size: 1.2rem;
   }
-  .header nav a{
-    font-size: .9rem;
+  .header nav a {
+    font-size: 0.9rem;
   }
-} 
+}
