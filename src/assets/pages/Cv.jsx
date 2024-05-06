@@ -4,6 +4,7 @@ import reactrouter from "/images/icono-react-router.png";
 import laravel from "/images/icono-laravel.png";
 import bootstrap from "/images/icono-bootstrap.png";
 import git from "/images/icono-git.svg";
+import github from "/images/icono-github.svg";
 import aws from "/images/icono-aws.png";
 import sass from "/images/icono-sass.png";
 import html from "/images/icono-html.png";
@@ -86,10 +87,13 @@ export function Cv() {
               Bootstrap
             </button>
             <button>
+              <img src={github} className="filter_img" alt="GitHub" />
+              GitHub
+            </button>
+            <button>
               <img src={git} alt="Git" />
               Git
             </button>
-
             <button>
               <img src={aws} alt="AWS" />
               AWS (Básico)
@@ -120,10 +124,25 @@ export function Cv() {
             <ol>
               <li>Eterno Autodidacta</li>
               <li>
-                  Introducción al Desarrollo Web en <a href="https://learndigital.withgoogle.com/link/1nur091p2ww" target="_blank" rel="noopener noreferrer">Google Actívate</a> (ID del certificado: T3B YY6 RJ2)
+                Introducción al Desarrollo Web en{" "}
+                <a
+                  href="https://learndigital.withgoogle.com/link/1nur091p2ww"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Google Actívate
+                </a>{" "}
+                (ID del certificado: T3B YY6 RJ2)
               </li>
               <li>
-                 Desarrollo de Sistemas de Información en <a href="https://khipu.edu.pe/" target="_blank" rel="noopener noreferrer">Khipu</a>
+                Desarrollo de Sistemas de Información en{" "}
+                <a
+                  href="https://khipu.edu.pe/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Khipu
+                </a>
               </li>
             </ol>
           </div>
