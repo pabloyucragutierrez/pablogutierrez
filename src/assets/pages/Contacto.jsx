@@ -11,7 +11,7 @@ export function Contacto() {
       <div className="section_container contenedor_contacto">
         <div className="contenedor1">
           <article>
-            <p>Puedes ecribirme a 📨 <a href="mailto:pabloyucragutierrez@gmail.com">pabloyucragutierrez@gmail.com</a> </p>
+            <p>Puedes escribirme a 📨 <a href="mailto:pabloyucragutierrez@gmail.com">pabloyucragutierrez@gmail.com</a> </p>
             <p>También puedes mandarme un mensaje directo por <a href="https://www.linkedin.com/in/pabloyucragutierrez/" target="_blank" rel="noopener noreferrer" title='Pablo Gutierrez en LinkedIn'>LinkedIn</a>. ¡Gracias!</p>
           </article>
           <form action="" className="form" onSubmit={(e)=>Formulario(e)}>
