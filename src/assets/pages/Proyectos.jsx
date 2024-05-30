@@ -212,7 +212,7 @@ export function Proyectos() {
                   <b>La repuestera</b> (2023)
                 </p>
                 <p>
-                  Desarrollé la página completa usando Laravel como backend.{" "}
+                  Desarrollé el frontend de la página completa usando Laravel como backend.
                 </p>
               </div>
             </article>
@@ -257,7 +257,7 @@ export function Proyectos() {
                 <p>
                   TecniRapido y TecniBordado son 2 páginas en 1. Usé HTML, CSS,
                   Bootstrap y Javascript para poder realizar el diseño y la
-                  funcionalidad de la página
+                  funcionalidad de la página.
                 </p>
               </div>
             </article>
