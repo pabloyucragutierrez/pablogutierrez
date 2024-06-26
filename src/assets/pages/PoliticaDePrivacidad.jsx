@@ -11,7 +11,7 @@ export function PoliticaDePrivacidad() {
           <h2>Información de usuarios</h2>
           <p>
             <strong>Datos personales:</strong> Cuando los visitantes se ponen en
-            contacto a través de nuestro formulario, recopilamos su nombre,
+            contacto a través del formulario, recopilamos su nombre,
             dirección de correo electrónico y el mensaje que envían.
           </p>
 
