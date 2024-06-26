@@ -8,6 +8,7 @@ import { Contacto } from "./assets/pages/Contacto";
 import { Footer } from "./assets/components/Footer";
 import { Home } from "./assets/pages/Home";
 import Error404 from "./assets/pages/Error404";
+import { PoliticaDePrivacidad } from "./assets/pages/PoliticaDePrivacidad";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/cv" element={<Navigate to="/sobre-mi" />} />
             <Route path="/proyectos" element={<Proyectos />} />
             <Route path="/contacto" element={<Contacto />} />
+            <Route path="/politica-de-privacidad" element={<PoliticaDePrivacidad />} />
             <Route path="*" element={<Error404 />} />
           </Routes>
         </main>

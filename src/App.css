@@ -190,6 +190,18 @@ main {
   border-radius: 50%;
   text-align: center;
 }
+/* sección política de privacicdad */
+.section_pdp .contenedor_pdp{
+  margin: 2rem auto;
+}
+.section_pdp .contenedor_pdp .contenedor1 h2{
+  color: var(--color-theme);
+}
+.section_pdp .contenedor_pdp .contenedor1 p {
+  color: var(--color-theme);
+  font-size: var(--size-text);
+  margin: 1rem 0;
+}
 /* sección inicio */
 .section_inicio .contenedor_inicio {
   margin: 2rem auto;
