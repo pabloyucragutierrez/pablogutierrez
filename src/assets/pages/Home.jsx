@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import pg from "/foto-home.png"
 export function Home() {
+  useEffect(() => {
+    document.title = "Pablo Gutierrez";
+  }, []);
   return (
     <section className='section_home'>
         <div className='contenedor_home'>

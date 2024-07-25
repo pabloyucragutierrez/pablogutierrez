@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 export default function Error404() {
+  useEffect(() => {
+    document.title = "Pablo Gutierrez";
+  }, []);
   const location = useLocation();
   return (
     <section className="section_error">
