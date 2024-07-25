@@ -265,6 +265,7 @@ main {
 .section_cv .contenedor_cv .contenedor3 .contenedor_habilidades button img {
   width: 3rem;
   height: 3rem;
+  font-size: .8rem;
   object-fit: contain;
 }
 .section_cv .contenedor_cv .contenedor3 .contenedor_habilidades button {
