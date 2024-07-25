@@ -28,16 +28,16 @@ export function Contacto() {
           </article>
           <form action="" className="form" onSubmit={(e)=>Formulario(e)}>
             <div>
-              <label htmlFor="nombres_y_apellidos">Nombres <span className="error error_nombre">(Ingresa tu nombre)</span></label>
-              <input type="text" name='nombres' id="nombres_y_apellidos" placeholder="Ingresa tu nombre..." autoComplete="on"/>
+              <label htmlFor="nombres">Nombres <span className="error error_nombre">(Ingresa tu nombre)</span></label>
+              <input type="text" name='nombres' id="nombres" placeholder="Ingresa tu nombre..." autoComplete="on"/>
             </div>
             <div>
-              <label htmlFor="nombres_y_apellidos">Correo electrónico <span className="error error_email">(Ingresa tu correo)</span></label>
-              <input type="email" name='email' id="nombres_y_apellidos" placeholder="Ingresa tu correo" autoComplete="on"/>
+              <label htmlFor="email">Correo electrónico <span className="error error_email">(Ingresa tu correo)</span></label>
+              <input type="email" name='email' id="email" placeholder="Ingresa tu correo" autoComplete="on"/>
             </div>
             <div>
-              <label htmlFor="nombres_y_apellidos">Mensaje </label>
-              <textarea name="mensaje" id="" autoComplete="on" placeholder="Mensaje (opcional)"></textarea>
+              <label htmlFor="mensaje">Mensaje </label>
+              <textarea name="mensaje" id="mensaje" autoComplete="on" placeholder="Mensaje (opcional)"></textarea>
             </div>
             <div style={{gap:".5rem"}}>
             <input className="btnSubmit" type="submit" value="Enviar formulario" />
