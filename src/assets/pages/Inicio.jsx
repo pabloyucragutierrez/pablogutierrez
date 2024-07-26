@@ -17,7 +17,7 @@ export function Inicio() {
         <meta property="og:url" content="https://pablogutierrez.xyz/inicio" />
         <meta property="og:image" content={pg}/>
         <meta property="og:type" content="website" />
-        <meta name="robots" content="index, follow" />
+        {/* <meta name="robots" content="index, follow" /> */}
       </Helmet> 
 
       <section className="section section_inicio">

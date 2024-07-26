@@ -16,7 +16,7 @@ export function Contacto() {
         <meta property="og:url" content="https://pablogutierrez.xyz/contacto" />
         <meta property="og:image" content={pg}/>
         <meta property="og:type" content="website" />
-        <meta name="robots" content="index, follow" />
+        {/* <meta name="robots" content="index, follow" /> */}
       </Helmet>
     <section className="section section_contacto">
       <h2 className="title_section left">Contáctame</h2>

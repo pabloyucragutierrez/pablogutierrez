@@ -28,7 +28,7 @@ export function Proyectos() {
         />
         <meta property="og:image" content={pg} />
         <meta property="og:type" content="website" />
-        <meta name="robots" content="index, follow" />
+        {/* <meta name="robots" content="index, follow" /> */}
       </Helmet>
       <section className="section section_proyectos">
         <h2 className="title_section right">Mis proyectos</h2>

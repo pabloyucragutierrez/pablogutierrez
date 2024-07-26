@@ -28,7 +28,7 @@ export function Cv() {
         <meta property="og:url" content="https://pablogutierrez.xyz/sobre-mi" />
         <meta property="og:image" content={pg}/>
         <meta property="og:type" content="website" />
-        <meta name="robots" content="index, follow" />
+        {/* <meta name="robots" content="index, follow" /> */}
       </Helmet>
       <section className="section section_cv">
         <h2 className="title_section left">Sobre mí 🧑🏻</h2>
