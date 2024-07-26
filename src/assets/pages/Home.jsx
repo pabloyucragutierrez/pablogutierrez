@@ -11,10 +11,10 @@ export function Home() {
         <title>Pablo Gutierrez</title>
         <meta name="description" content="Desarrollador frontend apasionado y creativo con experiencia en Tecnologías de parte del frontend. Comprometido con la creación de interfaces intuitivas, atractivas y centradas en el usuario." />
         <meta name="keywords" content="Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código" />
-        <link rel="canonical" href="https://pablogutierrez.xyz/" />
+        <link rel="canonical" href="https://pablogutierrez.xyz" />
         <meta property="og:title" content="Pablo Gutierrez" />
         <meta property="og:description" content="Desarrollador frontend apasionado y creativo con experiencia en Tecnologías de parte del frontend. Comprometido con la creación de interfaces intuitivas, atractivas y centradas en el usuario." />
-        <meta property="og:url" content="https://pablogutierrez.xyz/" />
+        <meta property="og:url" content="https://pablogutierrez.xyz" />
         <meta property="og:image" content={pg}/>
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
