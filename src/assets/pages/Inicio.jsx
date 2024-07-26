@@ -41,35 +41,7 @@ export function Inicio() {
               </p>
             </article>
             <article>
-              <script
-                async
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4956377527110765"
-                crossorigin="anonymous"
-              ></script>
-              <ins
-                className="adsbygoogle"
-                style={{ display: "block" }}
-                data-ad-client="ca-pub-4956377527110765"
-                data-ad-slot="8673384015"
-                data-ad-format="auto"
-                data-full-width-responsive="true"
-              ></ins>
-              <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
               <img src={code} alt="Desarrollo frontend" />
-              <script
-                async
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4956377527110765"
-                crossorigin="anonymous"
-              ></script>
-              <ins
-                className="adsbygoogle"
-                style={{ display: "block" }}
-                data-ad-client="ca-pub-4956377527110765"
-                data-ad-slot="8673384015"
-                data-ad-format="auto"
-                data-full-width-responsive="true"
-              ></ins>
-              <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
             </article>
           </div>
         </div>
