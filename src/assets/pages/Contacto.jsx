@@ -9,14 +9,13 @@ export function Contacto() {
         <Helmet>
        <title>Pablo Gutierrez - Contacto</title>
         <meta name="description" content="Puedes ponerte en contacto conmigo enviando un correo a pabloyucragutierrez@gmail.com o rellenando el formulario de esta página para ayudarte con lo que necesites." />
-        <meta name="keywords" content="Inicio, Pablo Gutierrez, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Proyectos" />
+        <meta name="keywords" content="Inicio, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Contacto" />
         <link rel="canonical" href="https://pablogutierrez.xyz/contacto" />
         <meta property="og:title" content="Pablo Gutierrez - Contacto" />
         <meta property="og:description" content="Puedes ponerte en contacto conmigo enviando un correo a pabloyucragutierrez@gmail.com o rellenando el formulario de esta página para ayudarte con lo que necesites." />
         <meta property="og:url" content="https://pablogutierrez.xyz/contacto" />
         <meta property="og:image" content={pg}/>
         <meta property="og:type" content="website" />
-        {/* <meta name="robots" content="index, follow" /> */}
       </Helmet>
     <section className="section section_contacto">
       <h2 className="title_section left">Contáctame</h2>

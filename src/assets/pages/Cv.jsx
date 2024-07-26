@@ -21,14 +21,13 @@ export function Cv() {
       <Helmet>
        <title>Pablo Gutierrez - Sobre mí</title>
         <meta name="description" content="Descubre más sobre mi trayectoria profesional y mi enfoque en el desarrollo frontend. En esta sección, comparto mi historia y lo que me motiva en el mundo de la tecnología." />
-        <meta name="keywords" content="Inicio, Pablo Gutierrez, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Proyectos" />
+        <meta name="keywords" content="Inicio, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Sobre mí" />
         <link rel="canonical" href="https://pablogutierrez.xyz/sobre-mi" />
         <meta property="og:title" content="Pablo Gutierrez - Sobre mí" />
         <meta property="og:description" content="Descubre más sobre mi trayectoria profesional y mi enfoque en el desarrollo frontend. En esta sección, comparto mi historia y lo que me motiva en el mundo de la tecnología." />
         <meta property="og:url" content="https://pablogutierrez.xyz/sobre-mi" />
         <meta property="og:image" content={pg}/>
         <meta property="og:type" content="website" />
-        {/* <meta name="robots" content="index, follow" /> */}
       </Helmet>
       <section className="section section_cv">
         <h2 className="title_section left">Sobre mí 🧑🏻</h2>
