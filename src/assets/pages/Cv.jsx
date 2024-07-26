@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import react from "/images/icono-react.png";
-import reactrouter from "/images/icono-react-router.png";
 import laravel from "/images/icono-laravel.png";
 import bootstrap from "/images/icono-bootstrap.png";
 import git from "/images/icono-git.svg";

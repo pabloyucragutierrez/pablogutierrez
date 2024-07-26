@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Formulario } from "../../Formulario";
 import { Helmet } from "react-helmet";
 import pg from "/foto-home.png"

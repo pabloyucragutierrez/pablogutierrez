@@ -266,6 +266,7 @@ main {
   width: 3rem;
   height: 3rem;
   font-size: .8rem;
+  color: var(--color-theme);
   object-fit: contain;
 }
 .section_cv .contenedor_cv .contenedor3 .contenedor_habilidades button {
@@ -321,6 +322,8 @@ main {
 .section_proyectos .contenedor_proyectos .contenedor1 a article img {
   width: 4rem;
   height: 4rem;
+  font-size: .8rem;
+  color: var(--color-theme);
   border-radius: 50%;
   object-fit: contain;
   background-color: #5e5e5e;
