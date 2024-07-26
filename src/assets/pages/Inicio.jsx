@@ -10,13 +10,14 @@ export function Inicio() {
       <Helmet>
         <title>Pablo Gutierrez - Inicio</title>
         <meta name="description" content="Soy desarrollador frontend con experiencia en React, Angular, Laravel y Astro. Explora mi sitio para ver cómo puedo ayudarte a construir interfaces web modernas y eficientes con las últimas tecnologías." />
-        <meta name="keywords" content="Inicio, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Inicio" />
+        <meta name="keywords" content="Inicio, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código" />
         <link rel="canonical" href="https://pablogutierrez.xyz/inicio" />
         <meta property="og:title" content="Pablo Gutierrez - Inicio" />
         <meta property="og:description" content="Soy desarrollador frontend con experiencia en React, Angular, Laravel y Astro. Explora mi sitio para ver cómo puedo ayudarte a construir interfaces web modernas y eficientes con las últimas tecnologías." />
         <meta property="og:url" content="https://pablogutierrez.xyz/inicio" />
         <meta property="og:image" content={pg}/>
         <meta property="og:type" content="website" />
+        <meta name="robots" content="index, follow" />
       </Helmet> 
       <section className="section section_inicio">
         <h2 className="title_section right">Hola 👋🏻</h2>

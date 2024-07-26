@@ -14,7 +14,7 @@ export function Proyectos() {
         />
         <meta
           name="keywords"
-          content="Inicio, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Proyectos"
+          content="Proyectos, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código"
         />
         <link rel="canonical" href="https://pablogutierrez.xyz/proyectos" />
         <meta property="og:title" content="Pablo Gutierrez - Proyectos" />
@@ -28,6 +28,7 @@ export function Proyectos() {
         />
         <meta property="og:image" content={pg} />
         <meta property="og:type" content="website" />  
+        <meta name="robots" content="index, follow" />
       </Helmet>
       <section className="section section_proyectos">
         <h2 className="title_section right">Mis proyectos</h2>
