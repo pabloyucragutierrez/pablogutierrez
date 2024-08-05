@@ -36,8 +36,8 @@ export function Contacto() {
               <input type="email" name='email' id="email" placeholder="Ingresa tu correo" autoComplete="on"/>
             </div>
             <div>
-              <label htmlFor="mensaje">Mensaje </label>
-              <textarea name="mensaje" id="mensaje" autoComplete="on" placeholder="Mensaje (opcional)"></textarea>
+              <label htmlFor="mensaje">Mensaje <span className="error error_mensaje">(Ingresa tu mensaje)</span></label>
+              <textarea name="mensaje" id="mensaje" autoComplete="on" placeholder="Mensaje"></textarea>
             </div>
             <div style={{gap:".5rem"}}>
             <input className="btnSubmit" type="submit" value="Enviar formulario" />
