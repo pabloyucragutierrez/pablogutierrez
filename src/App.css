@@ -334,7 +334,7 @@ main {
 }
 .section_contacto .contenedor_contacto .contenedor1 article p {
   color: var(--color-theme);
-  margin: 1rem 0;
+  margin-bottom: 1rem;
   font-size: var(--size-text);
 }
 .section_contacto .contenedor_contacto .contenedor1 article p a {
