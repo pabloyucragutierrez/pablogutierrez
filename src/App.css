@@ -322,10 +322,7 @@ main {
   align-items: center;
   gap: 1rem;
 }
-.section_proyectos .contenedor_proyectos .contenedor1 a article p  b{
-  font-family: "PT Sans", sans-serif;
-  font-weight: 900;
-}
+
 .section_proyectos .contenedor_proyectos .contenedor1 a article p {
   color: var(--color-theme);
 }
