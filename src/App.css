@@ -4,7 +4,7 @@
   --size-text: 1.2rem;
   --size-nav: 1.3rem;
   --size-icons: 1.4rem;
-  --size-title: 3rem;
+  --size-title: 2.8rem;
   --filter-img: invert(0);
 }
 
@@ -50,8 +50,9 @@ body {
 }
 .title_section {
   color: var(--color-theme);
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
   font-size: var(--size-title);
-  font-weight: bold;
 }
 .container {
   max-width: 1200px;
@@ -97,10 +98,11 @@ main {
   gap: 1rem;
 }
 .header .logo a {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--color-theme);
-  font-weight: bold;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
 }
 .header nav a:hover {
   border-bottom: 3px solid #4365a0;
@@ -110,7 +112,8 @@ main {
   padding-bottom: 0.2rem;
   color: var(--color-theme);
   text-decoration: none;
-  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
   font-size: var(--size-nav);
 }
 .header .social_media {
@@ -141,9 +144,10 @@ main {
   transform: translateX(-50%);
 }
 .footer p a {
-  font-weight: bold;
   text-decoration: none;
   color: var(--color-theme);
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
 }
 .footer p {
   color: var(--color-theme);
@@ -237,6 +241,7 @@ main {
 }
 .section_cv .contenedor_cv .contenedor2 .contenedor_acerca .text ul li a {
   color: var(--color-theme);
+  font-family: "PT Sans", sans-serif;
 }
 .section_cv .contenedor_cv .contenedor2 .contenedor_acerca .text ul li {
   font-size: var(--size-text);
@@ -272,7 +277,7 @@ main {
 .section_cv .contenedor_cv .contenedor3 .contenedor_habilidades button {
   font-size: var(--size-text);
   font-weight: 600;
-  width: 15rem;
+  width: 16rem;
   color: var(--color-theme);
   display: flex;
   align-items: center;
@@ -290,6 +295,7 @@ main {
 }
 .section_cv .contenedor_cv .contenedor4 .contenedor_educacion li a {
   color: #4365a0;
+  font-family: "PT Sans", sans-serif;
 }
 .section_cv .contenedor_cv .contenedor4 .contenedor_educacion li {
   color: var(--color-theme);
@@ -316,6 +322,10 @@ main {
   align-items: center;
   gap: 1rem;
 }
+.section_proyectos .contenedor_proyectos .contenedor1 a article p  b{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 900;
+}
 .section_proyectos .contenedor_proyectos .contenedor1 a article p {
   color: var(--color-theme);
 }
@@ -340,6 +350,8 @@ main {
 .section_contacto .contenedor_contacto .contenedor1 article p a {
   color: var(--color-theme);
   text-decoration: underline;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 900;
 }
 .section_contacto
   .contenedor_contacto
@@ -427,6 +439,7 @@ main {
   color: #fff;
   border-radius: 15px;
   outline: none;
+  font-family: "PT Sans", sans-serif;
 }
 .section_contacto
   .contenedor_contacto
@@ -517,7 +530,6 @@ main {
     justify-content: space-evenly;
   }
   .header nav a {
-    font-weight: normal;
     font-size: 1rem;
   }
   .header .social_media {

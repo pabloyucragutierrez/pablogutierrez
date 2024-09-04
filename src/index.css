@@ -1,15 +1,31 @@
 *,
 *::after,
-*::before{
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html{
+html {
   font-size: 16px;
-  font-family: 'DM Sans', sans-serif;
 }
-
-button{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+p,
+span,
+label,
+button,
+li,
+form,
+img {
+  font-family: "PT Sans", sans-serif;
+}
+button {
   cursor: pointer;
 }
