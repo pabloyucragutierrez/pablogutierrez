@@ -4,7 +4,7 @@
   --size-text: 1.2rem;
   --size-nav: 1.3rem;
   --size-icons: 1.4rem;
-  --size-title: 2.8rem;
+  --size-title: 2.9rem;
   --filter-img: invert(0);
 }
 
@@ -195,10 +195,10 @@ main {
   text-align: center;
 }
 /* sección política de privacicdad */
-.section_pdp .contenedor_pdp{
+.section_pdp .contenedor_pdp {
   margin: 2rem auto;
 }
-.section_pdp .contenedor_pdp .contenedor1 h2{
+.section_pdp .contenedor_pdp .contenedor1 h2 {
   color: var(--color-theme);
 }
 .section_pdp .contenedor_pdp .contenedor1 p {
@@ -213,14 +213,20 @@ main {
 .section_inicio .contenedor_inicio .contenedor1 article p {
   color: var(--color-theme);
   font-size: var(--size-text);
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
-.section_inicio .contenedor_inicio .contenedor1 article img {
-  display: block;
-  margin: 1.5rem auto;
-  width: 22rem;
-  height: 24rem;
-  object-fit: cover;
+.section_inicio .contenedor_inicio .contenedor1 .imgs__inicio{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.section_inicio .contenedor_inicio .contenedor1 .imgs__inicio img {
+  width: 25rem;
+  border-radius: 10px;
 }
 /* seccion sobre mí */
 .section_cv .contenedor_cv {
@@ -261,7 +267,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   margin: 1.5rem auto;
 }
 .section_cv .contenedor_cv .contenedor3 .contenedor_habilidades button:hover {
@@ -270,14 +276,14 @@ main {
 .section_cv .contenedor_cv .contenedor3 .contenedor_habilidades button img {
   width: 3rem;
   height: 3rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: var(--color-theme);
   object-fit: contain;
 }
 .section_cv .contenedor_cv .contenedor3 .contenedor_habilidades button {
   font-size: var(--size-text);
   font-weight: 600;
-  width: 16rem;
+  width: 30%;
   color: var(--color-theme);
   display: flex;
   align-items: center;
@@ -329,7 +335,8 @@ main {
 .section_proyectos .contenedor_proyectos .contenedor1 a article img {
   width: 4rem;
   height: 4rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
+  aspect-ratio: 1/1;
   color: var(--color-theme);
   border-radius: 50%;
   object-fit: contain;
@@ -435,6 +442,7 @@ main {
   background-color: #4365a0;
   color: #fff;
   border-radius: 15px;
+  font-size: 1rem;
   outline: none;
   font-family: "PT Sans", sans-serif;
 }
@@ -455,7 +463,7 @@ main {
   cursor: pointer;
 }
 .section_contacto .contenedor_contacto .contenedor1 form div textarea {
-  height: 5rem;
+  height: 6rem;
   resize: none;
 }
 .text-exito {
@@ -485,6 +493,7 @@ main {
     transform: rotate(360deg);
   }
 }
+
 
 /* movil y tablet*/
 @media (max-width: 900px) {
@@ -557,7 +566,7 @@ main {
   .section_cv .contenedor_cv .contenedor2 .contenedor_acerca .image img {
     width: 100%;
   }
-  .section_inicio .contenedor_inicio .contenedor1 article img {
+  .section_inicio .contenedor_inicio .contenedor1 .imgs__inicio img {
     width: 100%;
   }
 }
@@ -567,5 +576,13 @@ main {
   }
   .header nav a {
     font-size: 0.9rem;
+  }
+}
+
+/* pantallas grandes */
+
+@media (min-width: 1500px) {
+  .container, .header {
+    max-width: 1500px;
   }
 }

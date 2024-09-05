@@ -24,12 +24,15 @@ function App() {
             <Route path="/cv" element={<Navigate to="/sobre-mi" />} />
             <Route path="/proyectos" element={<Proyectos />} />
             <Route path="/contacto" element={<Contacto />} />
-            <Route path="/politica-de-privacidad" element={<PoliticaDePrivacidad />} />
+            <Route
+              path="/politica-de-privacidad"
+              element={<PoliticaDePrivacidad />}
+            />
             <Route path="*" element={<Error404 />} />
           </Routes>
         </main>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }

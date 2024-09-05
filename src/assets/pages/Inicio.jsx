@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import code from "/code-home.jpg";
+import responsive from "/responsive.jpg";
 import pg from "/foto-home.png"
 
 
@@ -39,7 +40,7 @@ export function Inicio() {
                 los que pude participar como desarrollador frontend.
               </p>
             </article>
-            <article>
+            <article className="imgs__inicio">
               <img src={code} alt="Desarrollo frontend" />
             </article>
           </div>
