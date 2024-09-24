@@ -3,11 +3,11 @@ import { useLocation } from "react-router-dom";
 
 export default function Error404() {
   useEffect(() => {
-    document.title = "Pablo Gutierrez";
+    document.title = "No se encontró la página";
   }, []);
   const location = useLocation();
   return (
-    <section className="section_error">
+    <section className="section section_error">
       <h2 className="error_ruta">
         La ruta <span style={{ textTransform: "uppercase" }}>{location.pathname} </span> no
         existe
