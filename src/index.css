@@ -32,6 +32,11 @@ button {
   cursor: pointer;
 }
 /* pantallas grandes */
+@media (max-width: 350px) {
+  html {
+    font-size: 13px;
+  }
+}
 @media (min-width: 1400px) {
   html {
     font-size: 17px;
