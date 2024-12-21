@@ -35,13 +35,13 @@ export function Proyectos() {
         <div className="section_container contenedor_proyectos">
           <div className="contenedor1">
             <a
-              href="https://cloudsen12plus.github.io/"
+              href="https://cloudsen12.github.io/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <article>
                 <SinFoto
-                  src="https://cloudsen12plus.github.io/assets/logo.webp"
+                  src="https://cloudsen12.github.io/assets/logo.webp"
                   alt="CloudSEN12"
                   fallback={nofoto}
                 />
