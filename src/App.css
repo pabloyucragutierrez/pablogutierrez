@@ -6,8 +6,12 @@
   --size-icons: 1.4rem;
   --size-title: 2.9rem;
   --filter-img: invert(0);
+  --filter-img2: invert(1);
 }
 
+.filter_img2 {
+  filter: var(--filter-img2);
+}
 .filter_img {
   filter: var(--filter-img);
 }

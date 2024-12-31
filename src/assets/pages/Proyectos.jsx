@@ -27,13 +27,39 @@ export function Proyectos() {
           content="https://pablogutierrez.xyz/proyectos"
         />
         <meta property="og:image" content={pg} />
-        <meta property="og:type" content="website" />  
+        <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <section className="section section_proyectos">
         <h2 className="title_section right">Mis proyectos</h2>
         <div className="section_container contenedor_proyectos">
           <div className="contenedor1">
+            <a
+              href="https://human.com.pe/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <article>
+                <SinFoto
+                  src="https://human.com.pe/assets/logo_header.png"
+                  alt="Human 3.0"
+                  fallback={nofoto}
+                />
+                <div className="text">
+                  <p>
+                    <b>Human 3.0</b> (2024)
+                  </p>
+                  <p>
+                    Desarrollé todo el sitio web basado en un diseño
+                    proporcionado en Figma, implementé las secciones y los
+                    formularios funcionales con EmailJS. Usé Angular, HTML y
+                    CSS, asegurando un diseño responsive y un rendimiento
+                    óptimo.
+                  </p>
+                </div>
+              </article>
+            </a>
+
             <a
               href="https://cloudsen12.github.io/"
               target="_blank"

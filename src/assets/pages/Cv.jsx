@@ -12,21 +12,31 @@ import css from "/images/icono-css.png";
 import javascript from "/images/icono-javascript.png";
 import angular from "/images/icono-angular.png";
 import astro from "/images/icono-astro.png";
-import pg from "/foto-home.png"
-
+import tailwind from "/images/icono-tailwind.png";
+import nextjs from "/images/icono-nextjs.png";
+import pg from "/foto-home.png";
 
 export function Cv() {
   return (
     <>
       <Helmet>
-       <title>Pablo Gutierrez - Sobre mí</title>
-        <meta name="description" content="Descubre más sobre mi trayectoria profesional y mi enfoque en el desarrollo frontend. En esta sección, comparto mi historia y lo que me motiva en el mundo de la tecnología." />
-        <meta name="keywords" content="Sobre mí, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código" />
+        <title>Pablo Gutierrez - Sobre mí</title>
+        <meta
+          name="description"
+          content="Descubre más sobre mi trayectoria profesional y mi enfoque en el desarrollo frontend. En esta sección, comparto mi historia y lo que me motiva en el mundo de la tecnología."
+        />
+        <meta
+          name="keywords"
+          content="Sobre mí, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código"
+        />
         <link rel="canonical" href="https://pablogutierrez.xyz/sobre-mi" />
         <meta property="og:title" content="Pablo Gutierrez - Sobre mí" />
-        <meta property="og:description" content="Descubre más sobre mi trayectoria profesional y mi enfoque en el desarrollo frontend. En esta sección, comparto mi historia y lo que me motiva en el mundo de la tecnología." />
+        <meta
+          property="og:description"
+          content="Descubre más sobre mi trayectoria profesional y mi enfoque en el desarrollo frontend. En esta sección, comparto mi historia y lo que me motiva en el mundo de la tecnología."
+        />
         <meta property="og:url" content="https://pablogutierrez.xyz/sobre-mi" />
-        <meta property="og:image" content={pg}/>
+        <meta property="og:image" content={pg} />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
       </Helmet>
@@ -36,13 +46,13 @@ export function Cv() {
           <div className="contenedor1">
             <article>
               <p>
-                Disfruto desarrollar interfaces de usuario usando las tecnologías
-                adecuadas, así como también la optimización y el SEO para el buen
-                posicionamiento y la carga del sitio web. <br />
+                Disfruto desarrollar interfaces de usuario usando las
+                tecnologías adecuadas, así como también la optimización y el SEO
+                para el buen posicionamiento y la carga del sitio web. <br />
               </p>
               <p>
-                Mi camino en el desarrollo web comenzó cuando, de adolescente, me
-                encontré maravillado con la posibilidad de dar vida a ideas y
+                Mi camino en el desarrollo web comenzó cuando, de adolescente,
+                me encontré maravillado con la posibilidad de dar vida a ideas y
                 conceptos a través del código. He trabajado en una variedad de
                 proyectos, desde sitios web informativos hasta tiendas en línea,
                 siempre desafiándome a mí mismo y creciendo en el proceso.
@@ -88,6 +98,10 @@ export function Cv() {
                 React js
               </button>
               <button>
+                <img src={nextjs} alt="Next .s" className="filter_img2" />
+                Next.js
+              </button>
+              <button>
                 <img src={astro} alt="Astro" className="filter_img" />
                 Astro
               </button>
@@ -98,6 +112,10 @@ export function Cv() {
               <button>
                 <img src={bootstrap} alt="Bootstrap" />
                 Bootstrap
+              </button>
+              <button>
+                <img src={tailwind} alt="Tailwind CSS" />
+                Tailwind CSS
               </button>
               <button>
                 <img src={github} className="filter_img" alt="GitHub" />
