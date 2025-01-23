@@ -47,7 +47,7 @@ export function Proyectos() {
                 />
                 <div className="text">
                   <p>
-                    <b>Human 3.0</b> (2024)
+                    <b>Human 3.0</b> (2025)
                   </p>
                   <p>
                     Desarrollé todo el sitio web basado en un diseño
