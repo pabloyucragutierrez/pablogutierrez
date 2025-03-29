@@ -5,7 +5,7 @@ import { ThemeDark } from "../../ThemeDark";
 
 export function Header() {
   const [theme, setTheme] = useState(true);
-  
+
   return (
     <header className="header">
       <div className="logo">
@@ -28,32 +28,45 @@ export function Header() {
             <Link to="/contacto">Contacto</Link>
           </li>
         </ul>
-      </nav> 
+      </nav>
       <div className="social_media">
-        <a href="https://www.instagram.com/pabloyucragutierrez/" target="_blank" rel="noopener noreferrer">
-          <ion-icon name="logo-instagram" alt="Instagram"></ion-icon>
+        <a
+          href="https://www.instagram.com/pabloyucragutierrez/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="bx bxl-instagram"></i>
         </a>
-        <a href="https://github.com/pabloyucragutierrez" target="_blank" rel="noopener noreferrer">
-          <ion-icon name="logo-github" alt="GitHub"></ion-icon>
+        <a
+          href="https://github.com/pabloyucragutierrez"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bx bxl-github"></i>
         </a>
-        <a href="https://www.linkedin.com/in/pabloyucragutierrez/" target="_blank" rel="noopener noreferrer">
-          <ion-icon name="logo-linkedin" alt="LinkedIn"></ion-icon>
+        <a
+          href="https://www.linkedin.com/in/pabloyucragutierrez/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bx bxl-linkedin"></i>
         </a>
-        <button className="contenedor_icon" aria-label={theme ? "Cambiar a tema claro" : "Cambiar a tema oscuro"}>
+        <button
+          className="contenedor_icon"
+          aria-label={theme ? "Cambiar a tema claro" : "Cambiar a tema oscuro"}
+        >
           {theme ? (
-            <ion-icon
-              name="sunny-outline"
-              className="theme_light"
-              onClick={()=>ThemeLight(setTheme)}
+            <i
+              className="bx bx-sun theme_light"
+              onClick={() => ThemeLight(setTheme)}
               alt="Tema claro"
-            ></ion-icon>
+            ></i>
           ) : (
-            <ion-icon
-              name="moon-outline"
-              className="theme_dark"
-              onClick={()=>ThemeDark(setTheme)}
+            <i
+              className="bx bx-moon theme_dark"
+              onClick={() => ThemeDark(setTheme)}
               alt="Tema oscuro"
-            ></ion-icon>
+            ></i>
           )}
         </button>
       </div>
