@@ -123,7 +123,7 @@ main {
 .header .social_media {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.3rem;
+  gap: 1rem;
 }
 .header .social_media a {
   font-size: var(--size-icons);
