@@ -124,12 +124,23 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  align-items: center;
 }
 .header .social_media a {
   font-size: var(--size-icons);
   color: var(--color-theme);
 }
-.header .social_media button {
+.header .social_media .change_language .img_language img{
+  width: 1.7rem;
+  filter: invert(1);
+}
+.header .social_media .change_language .img_language{
+  transition: 0.5s ease all;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.header .social_media .contenedor_icon {
   transition: 0.5s ease all;
   background-color: transparent;
   outline: none;

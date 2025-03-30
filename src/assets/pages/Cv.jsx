@@ -15,70 +15,57 @@ import astro from "/images/icono-astro.png";
 import tailwind from "/images/icono-tailwind.png";
 import nextjs from "/images/icono-nextjs.png";
 import pg from "/foto-home.png";
+import { useLanguage } from "../../LanguageContext";
+import translations from "../../translations/es.json";
+import translationsEn from "../../translations/en.json";
 
 export function Cv() {
+  const { language } = useLanguage();
+  const t = language === "es" ? translations.cv : translationsEn.cv;
+
   return (
     <>
       <Helmet>
-        <title>Pablo Gutierrez - Sobre mí</title>
-        <meta
-          name="description"
-          content="Descubre más sobre mi trayectoria profesional y mi enfoque en el desarrollo frontend. En esta sección, comparto mi historia y lo que me motiva en el mundo de la tecnología."
-        />
-        <meta
-          name="keywords"
-          content="Sobre mí, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código"
-        />
+        <title>{t.meta.title}</title>
+        <meta name="description" content={t.meta.description} />
+        <meta name="keywords" content={t.meta.keywords} />
         <link rel="canonical" href="https://pablogutierrez.xyz/sobre-mi" />
-        <meta property="og:title" content="Pablo Gutierrez - Sobre mí" />
-        <meta
-          property="og:description"
-          content="Descubre más sobre mi trayectoria profesional y mi enfoque en el desarrollo frontend. En esta sección, comparto mi historia y lo que me motiva en el mundo de la tecnología."
-        />
+        <meta property="og:title" content={t.meta.og_title} />
+        <meta property="og:description" content={t.meta.og_description} />
         <meta property="og:url" content="https://pablogutierrez.xyz/sobre-mi" />
         <meta property="og:image" content={pg} />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <section className="section section_cv">
-        <h2 className="title_section left">Sobre mí 🧑🏻</h2>
+        <h2 className="title_section left">{t.about_me}</h2>
         <div className="section_container contenedor_cv">
           <div className="contenedor1">
             <article>
-              <p>
-                Disfruto desarrollar interfaces de usuario usando las
-                tecnologías adecuadas, así como también la optimización y el SEO
-                para el buen posicionamiento y la carga del sitio web. <br />
-              </p>
-              <p>
-                Mi camino en el desarrollo web comenzó cuando, de adolescente,
-                me encontré maravillado con la posibilidad de dar vida a ideas y
-                conceptos a través del código. He trabajado en una variedad de
-                proyectos, desde sitios web informativos hasta tiendas en línea,
-                siempre desafiándome a mí mismo y creciendo en el proceso.
-              </p>
+              <p>{t.description1}</p>
+              <p>{t.description2}</p>
               <br />
             </article>
           </div>
           <div className="hr_section"></div>
           <div className="contenedor2">
-            <h2 className="title_section right">Yo soy</h2>
+            <h2 className="title_section right">{t.i_am}</h2>
             <div className="contenedor_acerca">
               <article className="image">
-                <img src="" alt="Foto de Pablo Gutierrez" />
+                <img src="" alt="Photo of Pablo Gutierrez" />
               </article>
               <article className="text">
                 <ul>
-                  <li>Pablo Yucra Gutierrez</li>
-                  <li>Nací en Cusco, Perú. 22 de Junio de 2003</li>
-                  <li>Vivo en Cusco, Perú</li>
+                  <li>{t.name}</li>
+                  <li>{t.born}</li>
+                  <li>{t.live}</li>
                   <li>
                     <a
                       href="https://drive.google.com/file/d/1o7BPZbRzBm02TfD0EG8cm9R5BbBlB2eE/view"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      CV
+                      {t.cv_link}
                     </a>
                   </li>
                 </ul>
@@ -87,7 +74,7 @@ export function Cv() {
           </div>
           <div className="hr_section"></div>
           <div className="contenedor3">
-            <h2 className="title_section left">Mis habilidades</h2>
+            <h2 className="title_section left">{t.skills}</h2>
             <div className="contenedor_habilidades">
               <button>
                 <img src={angular} alt="Angular" />
@@ -98,7 +85,7 @@ export function Cv() {
                 React js
               </button>
               <button>
-                <img src={nextjs} alt="Next .s" className="filter_img2" />
+                <img src={nextjs} alt="Next.js" className="filter_img2" />
                 Next.js
               </button>
               <button>
@@ -107,7 +94,7 @@ export function Cv() {
               </button>
               <button>
                 <img src={laravel} alt="Laravel" />
-                Laravel (Básico)
+                Laravel {language === "es" ? "(Básico)" : "(Basic)"}
               </button>
               <button>
                 <img src={bootstrap} alt="Bootstrap" />
@@ -127,7 +114,7 @@ export function Cv() {
               </button>
               <button>
                 <img src={aws} alt="AWS" />
-                AWS (Básico)
+                AWS {language === "es" ? "(Básico)" : "(Basic)"}
               </button>
               <button>
                 <img src={sass} alt="Sass" />
@@ -149,31 +136,12 @@ export function Cv() {
           </div>
           <div className="hr_section"></div>
           <div className="contenedor4">
-            <h2 className="title_section right">Educación</h2>
+            <h2 className="title_section right">{t.education}</h2>
             <div className="contenedor_educacion">
               <ol>
-                <li>Eterno Autodidacta</li>
-                <li>
-                  Introducción al Desarrollo Web en{" "}
-                  <a
-                    href="https://learndigital.withgoogle.com/link/1nur091p2ww"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Google Actívate
-                  </a>{" "}
-                  (ID del certificado: T3B YY6 RJ2)
-                </li>
-                <li>
-                  Desarrollo de Sistemas de Información en{" "}
-                  <a
-                    href="https://khipu.edu.pe/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Khipu
-                  </a>
-                </li>
+                {t.education_items.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
               </ol>
             </div>
           </div>

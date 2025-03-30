@@ -1,55 +1,58 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet"; // Agregué Helmet
+import { useLanguage } from "../../LanguageContext";
+import translations from "../../translations/es.json";
+import translationsEn from "../../translations/en.json";
+
 export function PoliticaDePrivacidad() {
+  const { language } = useLanguage();
+  const t = language === "es" ? translations.politica : translationsEn.politica;
+
   useEffect(() => {
-    document.title = "Pablo Gutierrez - Política de Privacidad";
-  }, []);
+    document.title = t.meta.title;
+  }, [language]);
+
   return (
-    <section className="section section_pdp">
-      <h2 className="title_section right">Política de Privacidad</h2>
-      <div className="section_container contenedor_pdp">
-        <div className="contenedor1">
-          <h2>Información de usuarios</h2>
-          <p>
-            <strong>Datos personales:</strong> Cuando los visitantes se ponen en
-            contacto a través del formulario, recopilamos su nombre,
-            dirección de correo electrónico y el mensaje que envían.
-          </p>
+    <>
+      <Helmet>
+        <title>{t.meta.title}</title>
+        <meta name="description" content={t.meta.description} />
+        <meta name="keywords" content={t.meta.keywords} />
+        <link
+          rel="canonical"
+          href="https://pablogutierrez.xyz/politica-de-privacidad"
+        />
+        <meta property="og:title" content={t.meta.og_title} />
+        <meta property="og:description" content={t.meta.og_description} />
+        <meta
+          property="og:url"
+          content="https://pablogutierrez.xyz/politica-de-privacidad"
+        />
+        <meta property="og:type" content="website" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+      <section className="section section_pdp">
+        <h2 className="title_section right">{t.title}</h2>
+        <div className="section_container contenedor_pdp">
+          <div className="contenedor1">
+            <h2>{t.user_info}</h2>
+            <p>{t.personal_data}</p>
 
-          <h2>Uso de la Información</h2>
-          <p>
-            Para mejorar nuestro sitio web y ofrecer una mejor experiencia de
-            usuario.
-          </p>
-          <p>
-            Para responder a sus consultas y proporcionar soporte al cliente.
-          </p>
+            <h2>{t.usage}</h2>
+            <p>{t.improve_site}</p>
+            <p>{t.support}</p>
 
-          <h2>Google AdSense</h2>
-          <p>
-            Utilizamos Google AdSense para mostrar anuncios en nuestro sitio
-            web. Google AdSense puede utilizar cookies para personalizar los
-            anuncios que ve de Google.
-          </p>
+            <h2>{t.adsense}</h2>
+            <p>{t.adsense_info}</p>
 
-          <h2>
-            Cumplimiento con el Reglamento General de Protección de Datos (RGPD)
-          </h2>
-          <p>
-            En conformidad con el Reglamento General de Protección de Datos
-            (RGPD) de la Unión Europea, respetamos sus derechos de privacidad y
-            nos comprometemos a proteger su información personal. La información
-            que recopilamos se utiliza únicamente para los fines de comunicación
-            y no se comparte con terceros.
-          </p>
+            <h2>{t.gdpr}</h2>
+            <p>{t.gdpr_info}</p>
 
-          <h2>Seguridad de la Información</h2>
-          <p>
-            Nos comprometemos a proteger la información personal que nos
-            proporciona. Sin embargo, tenga en cuenta que ningún método de
-            transmisión por Internet o método de almacenamiento es 100% seguro.
-          </p>
+            <h2>{t.security}</h2>
+            <p>{t.security_info}</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }

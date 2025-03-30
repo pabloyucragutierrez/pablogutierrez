@@ -1,21 +1,23 @@
-  import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-  import "./App.css";
-  import { Header } from "./assets/components/Header";
-  import { Inicio } from "./assets/pages/Inicio";
-  import { Proyectos } from "./assets/pages/Proyectos";
-  import { Cv } from "./assets/pages/Cv";
-  import { Contacto } from "./assets/pages/Contacto";
-  import { Footer } from "./assets/components/Footer";
-  import { Home } from "./assets/pages/Home";
-  import Error404 from "./assets/pages/Error404";
-  import { PoliticaDePrivacidad } from "./assets/pages/PoliticaDePrivacidad";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import "./App.css";
+import { Header } from "./assets/components/Header";
+import { Inicio } from "./assets/pages/Inicio";
+import { Proyectos } from "./assets/pages/Proyectos";
+import { Cv } from "./assets/pages/Cv";
+import { Contacto } from "./assets/pages/Contacto";
+import { Footer } from "./assets/components/Footer";
+import { Home } from "./assets/pages/Home";
+import Error404 from "./assets/pages/Error404";
+import { PoliticaDePrivacidad } from "./assets/pages/PoliticaDePrivacidad";
 import ScrollToTop from "./assets/components/ScrollToTop";
+import { LanguageProvider } from "./LanguageContext";
 
-  function App() {
-    return (
-      <div className="container">
-        <BrowserRouter basename="/">
-        <ScrollToTop />
+function App() {
+  return (
+    <div className="container">
+      <BrowserRouter basename="/">
+        <LanguageProvider>
+          <ScrollToTop />
           <Header />
           <main>
             <Routes>
@@ -34,9 +36,10 @@ import ScrollToTop from "./assets/components/ScrollToTop";
             </Routes>
           </main>
           <Footer />
-        </BrowserRouter>
-      </div>
-    );
-  }
+        </LanguageProvider>
+      </BrowserRouter>
+    </div>
+  );
+}
 
-  export default App;
+export default App;

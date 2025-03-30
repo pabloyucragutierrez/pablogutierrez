@@ -1,0 +1,255 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "developed_by": "Desarrollado por",
+    "name": "Pablo Gutierrez",
+    "year": "© 2025"
+  },
+  "home": {
+    "title": "Pablo Gutierrez, <br /> creativo y dedicado... <br /> <span>Desarrollador web</span>",
+    "meta": {
+      "title": "Pablo Gutierrez",
+      "description": "Desarrollador frontend apasionado y creativo con experiencia en Tecnologías de parte del frontend. Comprometido con la creación de interfaces intuitivas, atractivas y centradas en el usuario.",
+      "keywords": "Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código",
+      "og_title": "Pablo Gutierrez",
+      "og_description": "Desarrollador frontend apasionado y creativo con experiencia en Tecnologías de parte del frontend. Comprometido con la creación de interfaces intuitivas, atractivas y centradas en el usuario."
+    }
+  },
+  "inicio": {
+    "greeting": "Hola 👋🏻",
+    "welcome": "¡Hola! Bienvenido a mi sitio web. 😀",
+    "description": "Transformo diseños en código usando HTML, CSS y JavaScript, y tengo experiencia en frameworks como React, Astro, Angular y Laravel. Con capacidad para consumir APIs, he desarrollado aplicaciones web interactivas y responsivas. Siempre estoy en búsqueda de oportunidades para aprender y aplicar las últimas tendencias en tecnología frontend, con el objetivo de crear interfaces intuitivas y modernas.",
+    "projects_info": "En la sección de Proyectos, podrás encontrar algunos proyectos en los que pude participar como desarrollador frontend.",
+    "meta": {
+      "title": "Pablo Gutierrez - Hola 👋🏻",
+      "description": "Soy desarrollador frontend con experiencia en React, Angular, Laravel y Astro. Explora mi sitio para ver cómo puedo ayudarte a construir interfaces web modernas y eficientes con las últimas tecnologías.",
+      "keywords": "Inicio, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código",
+      "og_title": "Pablo Gutierrez - Hola 👋🏻",
+      "og_description": "Soy desarrollador frontend con experiencia en React, Angular, Laravel y Astro. Explora mi sitio para ver cómo puedo ayudarte a construir interfaces web modernas y eficientes con las últimas tecnologías."
+    }
+  },
+  "cv": {
+    "about_me": "Sobre mí 🧑🏻",
+    "description1": "Disfruto desarrollar interfaces de usuario usando las tecnologías adecuadas, así como también la optimización y el SEO para el buen posicionamiento y la carga del sitio web.",
+    "description2": "Mi camino en el desarrollo web comenzó cuando, de adolescente, me encontré maravillado con la posibilidad de dar vida a ideas y conceptos a través del código. He trabajado en una variedad de proyectos, desde sitios web informativos hasta tiendas en línea, siempre desafiándome a mí mismo y creciendo en el proceso.",
+    "i_am": "Yo soy",
+    "name": "Pablo Yucra Gutierrez",
+    "born": "Nací en Cusco, Perú. 22 de Junio de 2003",
+    "live": "Vivo en Cusco, Perú",
+    "cv_link": "CV",
+    "skills": "Mis habilidades",
+    "education": "Educación",
+    "education_items": [
+      "Eterno Autodidacta",
+      "Introducción al Desarrollo Web en Google Actívate (ID del certificado: T3B YY6 RJ2)",
+      "Desarrollo de Sistemas de Información en Khipu"
+    ],
+    "meta": {
+      "title": "Pablo Gutierrez - Sobre mí",
+      "description": "Descubre más sobre mi trayectoria profesional y mi enfoque en el desarrollo frontend. En esta sección, comparto mi historia y lo que me motiva en el mundo de la tecnología.",
+      "keywords": "Sobre mí, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código",
+      "og_title": "Pablo Gutierrez - Sobre mí",
+      "og_description": "Descubre más sobre mi trayectoria profesional y mi enfoque en el desarrollo frontend. En esta sección, comparto mi historia y lo que me motiva en el mundo de la tecnología."
+    }
+  },
+  "contacto": {
+    "title": "Contáctame",
+    "email_text": "📧 ¿Tienes algo que decirme o una propuesta? Mándame un correo a <a href=\"mailto:pabloyucragutierrez@gmail.com\">pabloyucragutierrez@gmail.com</a> o usa el formulario de contacto en esta página. ¡No dudes en escribirme!",
+    "linkedin_text": "También puedes encontrarme en <a href=\"https://www.linkedin.com/in/pabloyucragutierrez/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Pablo Gutiérrez en LinkedIn\">LinkedIn</a>.",
+    "form": {
+      "name_label": "Nombres",
+      "name_error": "(Ingresa tu nombre)",
+      "email_label": "Correo electrónico",
+      "email_error": "(Ingresa tu correo)",
+      "message_label": "Mensaje",
+      "message_error": "(Ingresa tu mensaje)",
+      "submit": "Enviar formulario",
+      "success": "Formulario enviado con éxito"
+    },
+    "meta": {
+      "title": "Pablo Gutierrez - Contáctame",
+      "description": "Puedes ponerte en contacto conmigo enviando un correo a pabloyucragutierrez@gmail.com o rellenando el formulario de esta página para ayudarte con lo que necesites.",
+      "keywords": "Contacto, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código",
+      "og_title": "Pablo Gutierrez - Contáctame",
+      "og_description": "Puedes ponerte en contacto conmigo enviando un correo a pabloyucragutierrez@gmail.com o rellenando el formulario de esta página para ayudarte con lo que necesites."
+    }
+  },
+  "proyectos": {
+    "title": "Mis proyectos",
+    "projects": [
+      {
+        "link": "https://human.com.pe/",
+        "logo": "https://human.com.pe/assets/logo_header.png",
+        "alt": "Human 3.0",
+        "name": "Human 3.0",
+        "year": "2025",
+        "description": "Desarrollé todo el sitio web basado en un diseño proporcionado en Figma, implementé las secciones y los formularios funcionales con EmailJS. Usé Angular, HTML y CSS, asegurando un diseño responsive y un rendimiento óptimo."
+      },
+      {
+        "link": "https://cloudsen12.github.io/",
+        "logo": "https://cloudsen12.github.io/assets/logo.webp",
+        "alt": "CloudSEN12",
+        "name": "CloudSEN12",
+        "year": "2024",
+        "description": "Desarrollo de secciones adicionales e implementé Chart.js para los gráficos usando Astro, cambios en rutas, enlaces y colores. Mejoré la accesibilidad, SEO y rendimiento de la página y mejoras en responsive design."
+      },
+      {
+        "link": "https://kintiny.pe/",
+        "logo": "https://kintiny.pe/img/kintiny_azul.png",
+        "alt": "KINTINY",
+        "name": "KINTINY",
+        "year": "2024",
+        "description": "Desarrollé cards, sliders y añadí una animación al botón de WhatsApp para mejorar la experiencia de usuario."
+      },
+      {
+        "link": "https://dbaexpress.pe/",
+        "logo": "https://dbaexpress.pe/_next/static/img/dbalogo.png",
+        "alt": "DBA Express",
+        "name": "DBA Express",
+        "year": "2024",
+        "description": "Desarrollé secciones adicionales y mejoré los colores en toda la página. Desarrollé todos los formularios e hice el envío de datos."
+      },
+      {
+        "link": "https://vivargo.com/es/",
+        "logo": "https://vivargo.com/static/img/logo.png",
+        "alt": "Vivargo",
+        "name": "Vivargo",
+        "year": "2024",
+        "description": "Desarrollo de modales y sliders con Angular."
+      },
+      {
+        "link": "https://tecfordata.com/",
+        "logo": "https://tecfordata.com/assets/logo_dark.png",
+        "alt": "Tecfordata",
+        "name": "Tecfordata",
+        "year": "2024",
+        "description": "Desarrollo de la web usando Angular."
+      },
+      {
+        "link": "https://www.rabimport.com/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/rabImport/header/logo-rab.jpg",
+        "alt": "RAB Import",
+        "name": "RAB Import",
+        "year": "2023",
+        "description": "Desarrollé sliders, secciones, formularios, etc. Mejoré el SEO, optimar el código."
+      },
+      {
+        "link": "https://qeswatravel.com/",
+        "logo": "https://assets-apapachame.s3.amazonaws.com/qeswa-travel/footer/logo-q.png",
+        "alt": "Qeswa travel",
+        "name": "Qeswa travel",
+        "year": "2022",
+        "description": "Desarrollador frontend en equipo web. Usé Laravel para conectar la interfaz con el backend (HTML, CSS, JS). Colaboré con desarrolladores backend. Optimicé rendimiento y experiencia del usuario."
+      },
+      {
+        "link": "https://exporab.com/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/expoRab/logo.jpg",
+        "alt": "Expo Rab",
+        "name": "Expo Rab",
+        "year": "2022",
+        "description": "Experiencia como desarrollador frontend en equipo web, usando el framework Laravel para enlazar frontend y backend. Codificación con HTML, Bootstrap, CSS, JS. Colaboración con desarrolladores backend."
+      },
+      {
+        "link": "https://kaizen.com.pe/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/kaizen/logos/logokaizen.jpg",
+        "alt": "Kaizen",
+        "name": "Kaizen",
+        "year": "2023",
+        "description": "Trabajé como desarrollador frontend en equipo web. Conexión frontend y backend mediante Laravel. Utilicé HTML, CSS, JS para la interfaz. Colaboración con diseñadores y backend."
+      },
+      {
+        "link": "https://rabpartes.com/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/repuestera/logo/logo.jpg",
+        "alt": "La repuestera",
+        "name": "La repuestera",
+        "year": "2023",
+        "description": "Desarrollé el frontend de la página completa usando Laravel como backend."
+      },
+      {
+        "link": "https://rikea.com.pe/",
+        "logo": "https://assets-apapachame.s3.amazonaws.com/rab-import/Rikea/header/logo.jpg",
+        "alt": "Rikea",
+        "name": "Rikea",
+        "year": "2023",
+        "description": "Desarrollador frontend en equipo web. Utilicé Laravel para integrar frontend y backend. Codificación con HTML, CSS, JS. Colaboración con diseñadores y backend. Enfoque en optimización del rendimiento y experiencia del usuario."
+      },
+      {
+        "link": "https://tecnibordados.com/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/tecniRapido/logo/logo-tecniRapido.jpg",
+        "alt": "TecniRapido y TecniBordado",
+        "name": "TecniRapido y TecniBordado",
+        "year": "2023",
+        "description": "TecniRapido y TecniBordado son 2 páginas en 1. Usé HTML, CSS, Bootstrap y Javascript para realizar el diseño y la funcionalidad de la página."
+      },
+      {
+        "link": "https://bianchi.com.pe/",
+        "logo": "https://assets-apapachame.s3.amazonaws.com/rab-import/bianchi/header/logo.jpg",
+        "alt": "Bianchi",
+        "name": "Bianchi",
+        "year": "2023",
+        "description": "Desarrollo frontend (HTML, CSS, JavaScript, Laravel, Responsive)"
+      },
+      {
+        "link": "https://www.sudamericanaperu.com.pe/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/sudamericana-coser/logos/1.jpg",
+        "alt": "Sudamericana",
+        "name": "Sudamericana",
+        "year": "2023",
+        "description": "Desarrollo de la web completa usando HTML, CSS, Javascript y Laravel para el backend."
+      },
+      {
+        "link": "https://calzado.sudamericanaperu.com.pe/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/sudamericana-cueros/logos/1.jpg",
+        "alt": "Sudamericana maquinaria de cuero y calzado",
+        "name": "Sudamericana maquinaria de cuero y calzado",
+        "year": "2023",
+        "description": "Desarrollo de la web completa usando HTML, CSS, Javascript y Laravel para el backend."
+      }
+    ],
+    "meta": {
+      "title": "Pablo Gutierrez - Mis proyectos",
+      "description": "Revisa algunos de los proyectos en los que he trabajado como desarrollador frontend.",
+      "keywords": "Proyectos, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código",
+      "og_title": "Pablo Gutierrez - Mis proyectos",
+      "og_description": "Revisa algunos de los proyectos en los que he trabajado como desarrollador frontend."
+    }
+  },
+  "politica": {
+    "title": "Política de Privacidad",
+    "user_info": "Información de usuarios",
+    "personal_data": "Datos personales: Cuando los visitantes se ponen en contacto a través del formulario, recopilamos su nombre, dirección de correo electrónico y el mensaje que envían.",
+    "usage": "Uso de la Información",
+    "improve_site": "Para mejorar nuestro sitio web y ofrecer una mejor experiencia de usuario.",
+    "support": "Para responder a sus consultas y proporcionar soporte al cliente.",
+    "adsense": "Google AdSense",
+    "adsense_info": "Utilizamos Google AdSense para mostrar anuncios en nuestro sitio web. Google AdSense puede utilizar cookies para personalizar los anuncios que ve de Google.",
+    "gdpr": "Cumplimiento con el Reglamento General de Protección de Datos (RGPD)",
+    "gdpr_info": "En conformidad con el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, respetamos sus derechos de privacidad y nos comprometemos a proteger su información personal. La información que recopilamos se utiliza únicamente para los fines de comunicación y no se comparte con terceros.",
+    "security": "Seguridad de la Información",
+    "security_info": "Nos comprometemos a proteger la información personal que nos proporciona. Sin embargo, tenga en cuenta que ningún método de transmisión por Internet o método de almacenamiento es 100% seguro.",
+    "meta": {
+      "title": "Pablo Gutierrez - Política de Privacidad",
+      "description": "Política de privacidad del sitio web de Pablo Gutierrez, explicando cómo se recopila, usa y protege la información personal de los usuarios.",
+      "keywords": "Política de Privacidad, Pablo Gutierrez, Protección de Datos, GDPR",
+      "og_title": "Pablo Gutierrez - Política de Privacidad",
+      "og_description": "Política de privacidad del sitio web de Pablo Gutierrez, explicando cómo se recopila, usa y protege la información personal de los usuarios."
+    }
+  },
+  "error404": {
+    "not_found": "La ruta <span style=\"text-transform: uppercase\">{pathname}</span> no existe",
+    "error": "Error 404",
+    "try": "Intenta con algunas de la rutas que están arriba",
+    "meta": {
+      "title": "Pablo Gutierrez - No se encontró la página",
+      "description": "Página no encontrada en el sitio web de Pablo Gutierrez.",
+      "keywords": "Error 404, Pablo Gutierrez",
+      "og_title": "Pablo Gutierrez - No se encontró la página",
+      "og_description": "Página no encontrada en el sitio web de Pablo Gutierrez."
+    }
+  }
+}

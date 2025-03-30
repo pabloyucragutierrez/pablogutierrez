@@ -1,0 +1,255 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "footer": {
+    "developed_by": "Developed by",
+    "name": "Pablo Gutierrez",
+    "year": "© 2025"
+  },
+  "home": {
+    "title": "Pablo Gutierrez, <br /> creative and dedicated... <br /> <span>Web Developer</span>",
+    "meta": {
+      "title": "Pablo Gutierrez",
+      "description": "Passionate and creative frontend developer with experience in frontend technologies. Committed to creating intuitive, attractive, and user-centered interfaces.",
+      "keywords": "Pablo Gutierrez, Frontend Developer, Web Developer, Frontend Development, React, Web Development, Angular, Astro, Laravel, Code",
+      "og_title": "Pablo Gutierrez",
+      "og_description": "Passionate and creative frontend developer with experience in frontend technologies. Committed to creating intuitive, attractive, and user-centered interfaces."
+    }
+  },
+  "inicio": {
+    "greeting": "Hello 👋🏻",
+    "welcome": "Hello! Welcome to my website. 😀",
+    "description": "I transform designs into code using HTML, CSS, and JavaScript, and I have experience with frameworks like React, Astro, Angular, and Laravel. With the ability to consume APIs, I have developed interactive and responsive web applications. I am always seeking opportunities to learn and apply the latest trends in frontend technology, aiming to create intuitive and modern interfaces.",
+    "projects_info": "In the Projects section, you can find some of the projects I have participated in as a frontend developer.",
+    "meta": {
+      "title": "Pablo Gutierrez - Hello 👋🏻",
+      "description": "I am a frontend developer with experience in React, Angular, Laravel, and Astro. Explore my site to see how I can help you build modern and efficient web interfaces with the latest technologies.",
+      "keywords": "Home, Pablo Gutierrez, Frontend Developer, Web Developer, Frontend Development, React, Web Development, Angular, Astro, Laravel, Code",
+      "og_title": "Pablo Gutierrez - Hello 👋🏻",
+      "og_description": "I am a frontend developer with experience in React, Angular, Laravel, and Astro. Explore my site to see how I can help you build modern and efficient web interfaces with the latest technologies."
+    }
+  },
+  "cv": {
+    "about_me": "About Me 🧑🏻",
+    "description1": "I enjoy developing user interfaces using the right technologies, as well as optimizing and implementing SEO for better positioning and website loading performance.",
+    "description2": "My journey in web development began as a teenager when I found myself amazed by the possibility of bringing ideas and concepts to life through code. I have worked on a variety of projects, from informational websites to online stores, always challenging myself and growing in the process.",
+    "i_am": "I am",
+    "name": "Pablo Yucra Gutierrez",
+    "born": "Born in Cusco, Peru. June 22, 2003",
+    "live": "Living in Cusco, Peru",
+    "cv_link": "CV",
+    "skills": "My Skills",
+    "education": "Education",
+    "education_items": [
+      "Eternal Self-Learner",
+      "Introduction to Web Development at Google Actívate (Certificate ID: T3B YY6 RJ2)",
+      "Information Systems Development at Khipu"
+    ],
+    "meta": {
+      "title": "Pablo Gutierrez - About Me",
+      "description": "Learn more about my professional journey and my focus on frontend development. In this section, I share my story and what drives me in the world of technology.",
+      "keywords": "About Me, Pablo Gutierrez, Frontend Developer, Web Developer, Frontend Development, React, Web Development, Angular, Astro, Laravel, Code",
+      "og_title": "Pablo Gutierrez - About Me",
+      "og_description": "Learn more about my professional journey and my focus on frontend development. In this section, I share my story and what drives me in the world of technology."
+    }
+  },
+  "contacto": {
+    "title": "Contact Me",
+    "email_text": "📧 Have something to say or a proposal? Send me an email at <a href=\"mailto:pabloyucragutierrez@gmail.com\">pabloyucragutierrez@gmail.com</a> or use the contact form on this page. Don’t hesitate to write me!",
+    "linkedin_text": "You can also find me on <a href=\"https://www.linkedin.com/in/pabloyucragutierrez/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Pablo Gutiérrez on LinkedIn\">LinkedIn</a>.",
+    "form": {
+      "name_label": "Names",
+      "name_error": "(Enter your name)",
+      "email_label": "Email",
+      "email_error": "(Enter your email)",
+      "message_label": "Message",
+      "message_error": "(Enter your message)",
+      "submit": "Send Form",
+      "success": "Form sent successfully"
+    },
+    "meta": {
+      "title": "Pablo Gutierrez - Contact Me",
+      "description": "You can get in touch with me by sending an email to pabloyucragutierrez@gmail.com or filling out the form on this page to assist you with whatever you need.",
+      "keywords": "Contact, Pablo Gutierrez, Frontend Developer, Web Developer, Frontend Development, React, Web Development, Angular, Astro, Laravel, Code",
+      "og_title": "Pablo Gutierrez - Contact Me",
+      "og_description": "You can get in touch with me by sending an email to pabloyucragutierrez@gmail.com or filling out the form on this page to assist you with whatever you need."
+    }
+  },
+  "proyectos": {
+    "title": "My Projects",
+    "projects": [
+      {
+        "link": "https://human.com.pe/",
+        "logo": "https://human.com.pe/assets/logo_header.png",
+        "alt": "Human 3.0",
+        "name": "Human 3.0",
+        "year": "2025",
+        "description": "I developed the entire website based on a design provided in Figma, implemented the sections and functional forms with EmailJS. I used Angular, HTML, and CSS, ensuring a responsive design and optimal performance."
+      },
+      {
+        "link": "https://cloudsen12.github.io/",
+        "logo": "https://cloudsen12.github.io/assets/logo.webp",
+        "alt": "CloudSEN12",
+        "name": "CloudSEN12",
+        "year": "2024",
+        "description": "Developed additional sections and implemented Chart.js for charts using Astro, made changes to routes, links, and colors. Improved accessibility, SEO, page performance, and responsive design."
+      },
+      {
+        "link": "https://kintiny.pe/",
+        "logo": "https://kintiny.pe/img/kintiny_azul.png",
+        "alt": "KINTINY",
+        "name": "KINTINY",
+        "year": "2024",
+        "description": "Developed cards, sliders, and added an animation to the WhatsApp button to enhance the user experience."
+      },
+      {
+        "link": "https://dbaexpress.pe/",
+        "logo": "https://dbaexpress.pe/_next/static/img/dbalogo.png",
+        "alt": "DBA Express",
+        "name": "DBA Express",
+        "year": "2024",
+        "description": "Developed additional sections and improved colors throughout the page. Developed all forms and handled data submission."
+      },
+      {
+        "link": "https://vivargo.com/es/",
+        "logo": "https://vivargo.com/static/img/logo.png",
+        "alt": "Vivargo",
+        "name": "Vivargo",
+        "year": "2024",
+        "description": "Developed modals and sliders with Angular."
+      },
+      {
+        "link": "https://tecfordata.com/",
+        "logo": "https://tecfordata.com/assets/logo_dark.png",
+        "alt": "Tecfordata",
+        "name": "Tecfordata",
+        "year": "2024",
+        "description": "Developed the website using Angular."
+      },
+      {
+        "link": "https://www.rabimport.com/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/rabImport/header/logo-rab.jpg",
+        "alt": "RAB Import",
+        "name": "RAB Import",
+        "year": "2023",
+        "description": "Developed sliders, sections, forms, etc. Improved SEO and optimized the code."
+      },
+      {
+        "link": "https://qeswatravel.com/",
+        "logo": "https://assets-apapachame.s3.amazonaws.com/qeswa-travel/footer/logo-q.png",
+        "alt": "Qeswa travel",
+        "name": "Qeswa travel",
+        "year": "2022",
+        "description": "Frontend developer in a web team. Used Laravel to connect the interface with the backend (HTML, CSS, JS). Collaborated with backend developers. Optimized performance and user experience."
+      },
+      {
+        "link": "https://exporab.com/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/expoRab/logo.jpg",
+        "alt": "Expo Rab",
+        "name": "Expo Rab",
+        "year": "2022",
+        "description": "Experience as a frontend developer in a web team, using the Laravel framework to link frontend and backend. Coding with HTML, Bootstrap, CSS, JS. Collaboration with backend developers."
+      },
+      {
+        "link": "https://kaizen.com.pe/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/kaizen/logos/logokaizen.jpg",
+        "alt": "Kaizen",
+        "name": "Kaizen",
+        "year": "2023",
+        "description": "Worked as a frontend developer in a web team. Connected frontend and backend using Laravel. Used HTML, CSS, JS for the interface. Collaborated with designers and backend developers."
+      },
+      {
+        "link": "https://rabpartes.com/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/repuestera/logo/logo.jpg",
+        "alt": "La repuestera",
+        "name": "La repuestera",
+        "year": "2023",
+        "description": "Developed the entire frontend of the page using Laravel as the backend."
+      },
+      {
+        "link": "https://rikea.com.pe/",
+        "logo": "https://assets-apapachame.s3.amazonaws.com/rab-import/Rikea/header/logo.jpg",
+        "alt": "Rikea",
+        "name": "Rikea",
+        "year": "2023",
+        "description": "Frontend developer in a web team. Used Laravel to integrate frontend and backend. Coding with HTML, CSS, JS. Collaboration with designers and backend developers. Focus on performance optimization and user experience."
+      },
+      {
+        "link": "https://tecnibordados.com/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/tecniRapido/logo/logo-tecniRapido.jpg",
+        "alt": "TecniRapido y TecniBordado",
+        "name": "TecniRapido y TecniBordado",
+        "year": "2023",
+        "description": "TecniRapido and TecniBordado are 2 pages in 1. I used HTML, CSS, Bootstrap, and JavaScript to design and implement the page's functionality."
+      },
+      {
+        "link": "https://bianchi.com.pe/",
+        "logo": "https://assets-apapachame.s3.amazonaws.com/rab-import/bianchi/header/logo.jpg",
+        "alt": "Bianchi",
+        "name": "Bianchi",
+        "year": "2023",
+        "description": "Frontend development (HTML, CSS, JavaScript, Laravel, Responsive)"
+      },
+      {
+        "link": "https://www.sudamericanaperu.com.pe/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/sudamericana-coser/logos/1.jpg",
+        "alt": "Sudamericana",
+        "name": "Sudamericana",
+        "year": "2023",
+        "description": "Developed the entire website using HTML, CSS, JavaScript, and Laravel for the backend."
+      },
+      {
+        "link": "https://calzado.sudamericanaperu.com.pe/",
+        "logo": "https://rab-import-assets.s3.amazonaws.com/sudamericana-cueros/logos/1.jpg",
+        "alt": "Sudamericana leather and footwear machinery",
+        "name": "Sudamericana leather and footwear machinery",
+        "year": "2023",
+        "description": "Developed the entire website using HTML, CSS, JavaScript, and Laravel for the backend."
+      }
+    ],
+    "meta": {
+      "title": "Pablo Gutierrez - My Projects",
+      "description": "Check out some of the projects I’ve worked on as a frontend developer.",
+      "keywords": "Projects, Pablo Gutierrez, Frontend Developer, Web Developer, Frontend Development, React, Web Development, Angular, Astro, Laravel, Code",
+      "og_title": "Pablo Gutierrez - My Projects",
+      "og_description": "Check out some of the projects I’ve worked on as a frontend developer."
+    }
+  },
+  "politica": {
+    "title": "Privacy Policy",
+    "user_info": "User Information",
+    "personal_data": "Personal Data: When visitors contact us through the form, we collect their name, email address, and the message they send.",
+    "usage": "Use of Information",
+    "improve_site": "To improve our website and provide a better user experience.",
+    "support": "To respond to your inquiries and provide customer support.",
+    "adsense": "Google AdSense",
+    "adsense_info": "We use Google AdSense to display ads on our website. Google AdSense may use cookies to personalize the ads you see from Google.",
+    "gdpr": "Compliance with the General Data Protection Regulation (GDPR)",
+    "gdpr_info": "In compliance with the European Union’s General Data Protection Regulation (GDPR), we respect your privacy rights and are committed to protecting your personal information. The information we collect is used solely for communication purposes and is not shared with third parties.",
+    "security": "Information Security",
+    "security_info": "We are committed to protecting the personal information you provide. However, please note that no method of transmission over the Internet or storage method is 100% secure.",
+    "meta": {
+      "title": "Pablo Gutierrez - Privacy Policy",
+      "description": "Privacy policy of Pablo Gutierrez's website, explaining how user personal information is collected, used, and protected.",
+      "keywords": "Privacy Policy, Pablo Gutierrez, Data Protection, GDPR",
+      "og_title": "Pablo Gutierrez - Privacy Policy",
+      "og_description": "Privacy policy of Pablo Gutierrez's website, explaining how user personal information is collected, used, and protected."
+    }
+  },
+  "error404": {
+    "not_found": "The route <span style=\"text-transform: uppercase\">{pathname}</span> does not exist",
+    "error": "Error 404",
+    "try": "Try some of the routes listed above",
+    "meta": {
+      "title": "Pablo Gutierrez - Page Not Found",
+      "description": "Page not found on Pablo Gutierrez's website.",
+      "keywords": "Error 404, Pablo Gutierrez",
+      "og_title": "Pablo Gutierrez - Page Not Found",
+      "og_description": "Page not found on Pablo Gutierrez's website."
+    }
+  }
+}
