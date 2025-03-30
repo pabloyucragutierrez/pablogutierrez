@@ -33,7 +33,7 @@ export function Home() {
             <h2 dangerouslySetInnerHTML={{ __html: t.title }}></h2>
           </article>
           <article className="image">
-            <img src={pg} alt="Photo of Pablo Gutierrez" />
+            <img src={pg} alt="Pablo Gutierrez" />
           </article>
         </div>
       </section>

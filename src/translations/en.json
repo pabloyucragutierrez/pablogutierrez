@@ -1,9 +1,18 @@
 {
-  "header": {
+ "header": {
     "home": "Home",
     "about": "About Me",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "logo_aria_label": "Go to Pablo Gutierrez's homepage",
+    "switch_to_spanish": "Switch to Spanish",
+    "switch_to_english": "Switch to English",
+    "spanish_alt": "Spanish",
+    "english_alt": "English",
+    "switch_to_light_theme": "Switch to light theme",
+    "switch_to_dark_theme": "Switch to dark theme",
+    "light_theme_alt": "Light theme",
+    "dark_theme_alt": "Dark theme"
   },
   "footer": {
     "developed_by": "Developed by",
@@ -25,6 +34,7 @@
     "welcome": "Hello! Welcome to my website. 😀",
     "description": "I transform designs into code using HTML, CSS, and JavaScript, and I have experience with frameworks like React, Astro, Angular, and Laravel. With the ability to consume APIs, I have developed interactive and responsive web applications. I am always seeking opportunities to learn and apply the latest trends in frontend technology, aiming to create intuitive and modern interfaces.",
     "projects_info": "In the Projects section, you can find some of the projects I have participated in as a frontend developer.",
+    "code_image_alt": "Frontend development",
     "meta": {
       "title": "Pablo Gutierrez - Hello 👋🏻",
       "description": "I am a frontend developer with experience in React, Angular, Laravel, and Astro. Explore my site to see how I can help you build modern and efficient web interfaces with the latest technologies.",

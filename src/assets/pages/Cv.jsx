@@ -52,7 +52,7 @@ export function Cv() {
             <h2 className="title_section right">{t.i_am}</h2>
             <div className="contenedor_acerca">
               <article className="image">
-                <img src="" alt="Photo of Pablo Gutierrez" />
+                <img src="" alt="Pablo Gutierrez" />
               </article>
               <article className="text">
                 <ul>

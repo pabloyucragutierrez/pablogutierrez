@@ -34,7 +34,7 @@ export function Inicio() {
               <p>{t.projects_info}</p>
             </article>
             <article className="imgs__inicio">
-              <img src={code} alt="Desarrollo frontend" />
+              <img src={code} alt={t.code_image_alt} />
             </article>
           </div>
         </div>

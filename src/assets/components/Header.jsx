@@ -30,7 +30,7 @@ export function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/" aria-label="Go to Pablo Gutierrez's homepage">
+        <Link to="/" aria-label={t.logo_aria_label}>
           Pablo Gutierrez
         </Link>
       </div>
@@ -55,13 +55,13 @@ export function Header() {
           <button
             className="img_language"
             onClick={() => handleLanguageChange(nextLanguage)}
-            aria-label={`Switch to ${
-              nextLanguage === "es" ? "Spanish" : "English"
-            }`}
+            aria-label={
+              nextLanguage === "es" ? t.switch_to_spanish : t.switch_to_english
+            }
           >
             <img
               src={flagToShow}
-              alt={nextLanguage === "es" ? "Spanish" : "English"}
+              alt={nextLanguage === "es" ? t.spanish_alt : t.english_alt}
               style={{ filter: "var(--filter-img2)" }}
             />
           </button>
@@ -70,6 +70,7 @@ export function Header() {
           href="https://www.instagram.com/pabloyucragutierrez/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label={language === "es" ? "Instagram de Pablo Gutierrez" : "Pablo Gutierrez's Instagram"}
         >
           <i className="bx bxl-instagram"></i>
         </a>
@@ -77,6 +78,7 @@ export function Header() {
           href="https://github.com/pabloyucragutierrez"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label={language === "es" ? "GitHub de Pablo Gutierrez" : "Pablo Gutierrez's GitHub"}
         >
           <i className="bx bxl-github"></i>
         </a>
@@ -84,24 +86,25 @@ export function Header() {
           href="https://www.linkedin.com/in/pabloyucragutierrez/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label={language === "es" ? "LinkedIn de Pablo Gutierrez" : "Pablo Gutierrez's LinkedIn"}
         >
           <i className="bx bxl-linkedin"></i>
         </a>
         <button
           className="contenedor_icon"
-          aria-label={theme ? "Switch to light theme" : "Switch to dark theme"}
+          aria-label={theme ? t.switch_to_light_theme : t.switch_to_dark_theme}
         >
           {theme ? (
             <i
               className="bx bx-sun theme_light"
               onClick={handleThemeLight}
-              alt="Light theme"
+              alt={t.light_theme_alt}
             ></i>
           ) : (
             <i
               className="bx bx-moon theme_dark"
               onClick={handleThemeDark}
-              alt="Dark theme"
+              alt={t.dark_theme_alt}
             ></i>
           )}
         </button>
