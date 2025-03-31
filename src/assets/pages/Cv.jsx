@@ -139,9 +139,28 @@ export function Cv() {
             <h2 className="title_section right">{t.education}</h2>
             <div className="contenedor_educacion">
               <ol>
-                {t.education_items.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
+                <li>{t.education_items[0]}</li>
+                <li>
+                  {language === "es" ? "Introducción al Desarrollo Web en " : "Introduction to Web Development at "}
+                  <a
+                    href="https://learndigital.withgoogle.com/link/1nur091p2ww"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Google Actívate
+                  </a>{" "}
+                  (ID del certificado: T3B YY6 RJ2)
+                </li>
+                <li>
+                  {language === "es" ? "Desarrollo de Sistemas de Información en " : "Information Systems Development at "}
+                  <a
+                    href="https://khipu.edu.pe/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Khipu
+                  </a>
+                </li>
               </ol>
             </div>
           </div>

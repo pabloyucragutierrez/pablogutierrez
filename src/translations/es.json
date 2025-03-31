@@ -36,7 +36,7 @@
     "projects_info": "En la sección de Proyectos, podrás encontrar algunos proyectos en los que pude participar como desarrollador frontend.",
     "code_image_alt": "Desarrollo frontend",
     "meta": {
-      "title": "Pablo Gutierrez - Hola 👋🏻",
+      "title": "Pablo Gutierrez - Inicio",
       "description": "Soy desarrollador frontend con experiencia en React, Angular, Laravel y Astro. Explora mi sitio para ver cómo puedo ayudarte a construir interfaces web modernas y eficientes con las últimas tecnologías.",
       "keywords": "Inicio, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código",
       "og_title": "Pablo Gutierrez - Hola 👋🏻",
@@ -82,7 +82,7 @@
       "success": "Formulario enviado con éxito"
     },
     "meta": {
-      "title": "Pablo Gutierrez - Contáctame",
+      "title": "Pablo Gutierrez - Contacto",
       "description": "Puedes ponerte en contacto conmigo enviando un correo a pabloyucragutierrez@gmail.com o rellenando el formulario de esta página para ayudarte con lo que necesites.",
       "keywords": "Contacto, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código",
       "og_title": "Pablo Gutierrez - Contáctame",
@@ -222,7 +222,7 @@
       }
     ],
     "meta": {
-      "title": "Pablo Gutierrez - Mis proyectos",
+      "title": "Pablo Gutierrez - Proyectos",
       "description": "Revisa algunos de los proyectos en los que he trabajado como desarrollador frontend.",
       "keywords": "Proyectos, Pablo Gutierrez, Desarrollador frontend, Desarrollador web, Desarrollo Frontend, React, Desarrollo Web, Angular, Astro, Laravel, Código",
       "og_title": "Pablo Gutierrez - Mis proyectos",
