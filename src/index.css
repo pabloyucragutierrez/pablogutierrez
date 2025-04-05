@@ -96,18 +96,18 @@ button {
 }
 @media (min-width: 2100px) {
   html {
-    font-size: 32px;
+    font-size: 25px;
   }
   .container, .header {
-    max-width: 2200px;
+    max-width: 1800px;
   }
 }
-@media (min-width: 2600px) {
+@media (min-width: 2500px) {
   html {
-    font-size: 45px;
+    font-size: 30px;
   }
   .container, .header {
-    max-width: 3500px;
+    max-width: 2000px;
   }
 }
 @media (min-width: 3500px) {
