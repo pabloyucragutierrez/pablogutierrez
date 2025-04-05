@@ -43,7 +43,7 @@
       "og_description": "Soy desarrollador frontend con experiencia en React, Angular, Laravel y Astro. Explora mi sitio para ver cómo puedo ayudarte a construir interfaces web modernas y eficientes con las últimas tecnologías."
     }
   },
-  "cv": {
+ "cv": {
     "about_me": "Sobre mí 🧑🏻",
     "description1": "Disfruto desarrollar interfaces de usuario usando las tecnologías adecuadas, así como también la optimización y el SEO para el buen posicionamiento y la carga del sitio web.",
     "description2": "Mi camino en el desarrollo web comenzó cuando, de adolescente, me encontré maravillado con la posibilidad de dar vida a ideas y conceptos a través del código. He trabajado en una variedad de proyectos, desde sitios web informativos hasta tiendas en línea, siempre desafiándome a mí mismo y creciendo en el proceso.",
@@ -54,11 +54,27 @@
     "cv_link": "CV",
     "cv_url": "https://drive.google.com/file/d/1rP1lA8HcQ9ugr_LWrTSBCd0lcpgM6LTA/view?usp=sharing",
     "skills": "Mis habilidades",
+    "skills_list": [
+      { "name": "Angular", "level": "" },
+      { "name": "React.js", "level": "" },
+      { "name": "Next.js", "level": "" },
+      { "name": "Astro", "level": "" },
+      { "name": "Laravel", "level": "(Básico)" },
+      { "name": "Bootstrap", "level": "" },
+      { "name": "Tailwind CSS", "level": "" },
+      { "name": "GitHub", "level": "" },
+      { "name": "Git", "level": "" },
+      { "name": "AWS", "level": "(Básico)" },
+      { "name": "Sass", "level": "" },
+      { "name": "HTML", "level": "" },
+      { "name": "CSS", "level": "" },
+      { "name": "JavaScript", "level": "" }
+    ],
     "education": "Educación",
     "education_items": [
       "Eterno Autodidacta",
-      "Introducción al Desarrollo Web en Google Actívate (ID del certificado: T3B YY6 RJ2)",
-      "Desarrollo de Sistemas de Información en Khipu"
+      "Introducción al Desarrollo Web en <a href=\"https://learndigital.withgoogle.com/link/1nur091p2ww\" target=\"_blank\" rel=\"noopener noreferrer\">Google Actívate</a> (ID del certificado: T3B YY6 RJ2)",
+      "Desarrollo de Sistemas de Información en <a href=\"https://khipu.edu.pe/\" target=\"_blank\" rel=\"noopener noreferrer\">Khipu</a>"
     ],
     "meta": {
       "title": "Pablo Gutierrez - Sobre mí",

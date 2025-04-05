@@ -43,7 +43,7 @@
       "og_description": "I am a frontend developer with experience in React, Angular, Laravel, and Astro. Explore my site to see how I can help you build modern and efficient web interfaces with the latest technologies."
     }
   },
-  "cv": {
+ "cv": {
     "about_me": "About Me 🧑🏻",
     "description1": "I enjoy developing user interfaces using the right technologies, as well as optimizing and implementing SEO for better positioning and website loading performance.",
     "description2": "My journey in web development began as a teenager when I found myself amazed by the possibility of bringing ideas and concepts to life through code. I have worked on a variety of projects, from informational websites to online stores, always challenging myself and growing in the process.",
@@ -54,11 +54,27 @@
     "cv_link": "CV",
     "cv_url": "https://drive.google.com/file/d/11z6KEN9eH-E8jomIVeqTZKHBkHlKqrlT/view?usp=sharing",
     "skills": "My Skills",
+    "skills_list": [
+      { "name": "Angular", "level": "" },
+      { "name": "React.js", "level": "" },
+      { "name": "Next.js", "level": "" },
+      { "name": "Astro", "level": "" },
+      { "name": "Laravel", "level": "(Basic)" },
+      { "name": "Bootstrap", "level": "" },
+      { "name": "Tailwind CSS", "level": "" },
+      { "name": "GitHub", "level": "" },
+      { "name": "Git", "level": "" },
+      { "name": "AWS", "level": "(Basic)" },
+      { "name": "Sass", "level": "" },
+      { "name": "HTML", "level": "" },
+      { "name": "CSS", "level": "" },
+      { "name": "JavaScript", "level": "" }
+    ],
     "education": "Education",
     "education_items": [
       "Eternal Self-Learner",
-      "Introduction to Web Development at Google Actívate (Certificate ID: T3B YY6 RJ2)",
-      "Information Systems Development at Khipu"
+      "Introduction to Web Development at <a href=\"https://learndigital.withgoogle.com/link/1nur091p2ww\" target=\"_blank\" rel=\"noopener noreferrer\">Google Actívate</a> (Certificate ID: T3B YY6 RJ2)",
+      "Information Systems Development at <a href=\"https://khipu.edu.pe/\" target=\"_blank\" rel=\"noopener noreferrer\">Khipu</a>"
     ],
     "meta": {
       "title": "Pablo Gutierrez - About Me",

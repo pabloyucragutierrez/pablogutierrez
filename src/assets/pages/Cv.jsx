@@ -23,6 +23,24 @@ export function Cv() {
   const { language } = useLanguage();
   const t = language === "es" ? translations.cv : translationsEn.cv;
 
+  // Mapa de imágenes para las habilidades
+  const skillImages = {
+    "Angular": angular,
+    "React.js": react,
+    "Next.js": nextjs,
+    "Astro": astro,
+    "Laravel": laravel,
+    "Bootstrap": bootstrap,
+    "Tailwind CSS": tailwind,
+    "GitHub": github,
+    "Git": git,
+    "AWS": aws,
+    "Sass": sass,
+    "HTML": html,
+    "CSS": css,
+    "JavaScript": javascript,
+  };
+
   return (
     <>
       <Helmet>
@@ -60,11 +78,7 @@ export function Cv() {
                   <li>{t.born}</li>
                   <li>{t.live}</li>
                   <li>
-                    <a
-                      href={t.cv_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href={t.cv_url} target="_blank" rel="noopener noreferrer">
                       {t.cv_link}
                     </a>
                   </li>
@@ -76,62 +90,22 @@ export function Cv() {
           <div className="contenedor3">
             <h2 className="title_section left">{t.skills}</h2>
             <div className="contenedor_habilidades">
-              <button>
-                <img src={angular} alt="Angular" />
-                Angular
-              </button>
-              <button>
-                <img src={react} alt="React js" />
-                React js
-              </button>
-              <button>
-                <img src={nextjs} alt="Next.js" className="filter_img2" />
-                Next.js
-              </button>
-              <button>
-                <img src={astro} alt="Astro" className="filter_img" />
-                Astro
-              </button>
-              <button>
-                <img src={laravel} alt="Laravel" />
-                Laravel {language === "es" ? "(Básico)" : "(Basic)"}
-              </button>
-              <button>
-                <img src={bootstrap} alt="Bootstrap" />
-                Bootstrap
-              </button>
-              <button>
-                <img src={tailwind} alt="Tailwind CSS" />
-                Tailwind CSS
-              </button>
-              <button>
-                <img src={github} className="filter_img" alt="GitHub" />
-                GitHub
-              </button>
-              <button>
-                <img src={git} alt="Git" />
-                Git
-              </button>
-              <button>
-                <img src={aws} alt="AWS" />
-                AWS {language === "es" ? "(Básico)" : "(Basic)"}
-              </button>
-              <button>
-                <img src={sass} alt="Sass" />
-                Sass
-              </button>
-              <button>
-                <img src={html} alt="HTML" />
-                HTML
-              </button>
-              <button>
-                <img src={css} alt="CSS" />
-                CSS
-              </button>
-              <button>
-                <img src={javascript} alt="JavaScript" />
-                JavaScript
-              </button>
+              {t.skills_list.map((skill, index) => (
+                <button key={index}>
+                  <img
+                    src={skillImages[skill.name]}
+                    alt={skill.name}
+                    className={
+                      skill.name === "Next.js"
+                        ? "filter_img2"
+                        : skill.name === "Astro" || skill.name === "GitHub"
+                        ? "filter_img"
+                        : ""
+                    }
+                  />
+                  {skill.name} {skill.level}
+                </button>
+              ))}
             </div>
           </div>
           <div className="hr_section"></div>
@@ -139,32 +113,9 @@ export function Cv() {
             <h2 className="title_section right">{t.education}</h2>
             <div className="contenedor_educacion">
               <ol>
-                <li>{t.education_items[0]}</li>
-                <li>
-                  {language === "es"
-                    ? "Introducción al Desarrollo Web en "
-                    : "Introduction to Web Development at "}
-                  <a
-                    href="https://learndigital.withgoogle.com/link/1nur091p2ww"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Google Actívate
-                  </a>{" "}
-                  (ID del certificado: T3B YY6 RJ2)
-                </li>
-                <li>
-                  {language === "es"
-                    ? "Desarrollo de Sistemas de Información en "
-                    : "Information Systems Development at "}
-                  <a
-                    href="https://khipu.edu.pe/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Khipu
-                  </a>
-                </li>
+                {t.education_items.map((item, index) => (
+                  <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
+                ))}
               </ol>
             </div>
           </div>
