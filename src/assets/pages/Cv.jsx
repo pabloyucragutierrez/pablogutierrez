@@ -61,7 +61,7 @@ export function Cv() {
                   <li>{t.live}</li>
                   <li>
                     <a
-                      href="https://drive.google.com/file/d/1o7BPZbRzBm02TfD0EG8cm9R5BbBlB2eE/view"
+                      href={t.cv_url}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -141,7 +141,9 @@ export function Cv() {
               <ol>
                 <li>{t.education_items[0]}</li>
                 <li>
-                  {language === "es" ? "Introducción al Desarrollo Web en " : "Introduction to Web Development at "}
+                  {language === "es"
+                    ? "Introducción al Desarrollo Web en "
+                    : "Introduction to Web Development at "}
                   <a
                     href="https://learndigital.withgoogle.com/link/1nur091p2ww"
                     target="_blank"
@@ -152,7 +154,9 @@ export function Cv() {
                   (ID del certificado: T3B YY6 RJ2)
                 </li>
                 <li>
-                  {language === "es" ? "Desarrollo de Sistemas de Información en " : "Information Systems Development at "}
+                  {language === "es"
+                    ? "Desarrollo de Sistemas de Información en "
+                    : "Information Systems Development at "}
                   <a
                     href="https://khipu.edu.pe/"
                     target="_blank"

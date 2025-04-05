@@ -37,23 +37,92 @@ button {
     font-size: 13px;
   }
 }
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+  .container, .header {
+    max-width: 1100px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 17px;
+  }
+  .container, .header {
+    max-width: 1200px;
+  }
+}
 @media (min-width: 1400px) {
   html {
     font-size: 17px;
+  }
+  .container, .header {
+    max-width: 1300px;
   }
 }
 @media (min-width: 1500px) {
   html {
     font-size: 18px;
   }
+  .container, .header {
+    max-width: 1400px;
+  }
 }
 @media (min-width: 1600px) {
   html {
     font-size: 19px;
   }
+  .container, .header {
+    max-width: 1500px;
+  }
 }
 @media (min-width: 1700px) {
   html {
     font-size: 22px;
+  }
+  .container, .header {
+    max-width: 1600px;
+  }
+}
+@media (min-width: 1800px) {
+  html {
+    font-size: 23px;
+  }
+  .container, .header {
+    max-width: 1700px;
+  }
+}
+@media (min-width: 2100px) {
+  html {
+    font-size: 32px;
+  }
+  .container, .header {
+    max-width: 2200px;
+  }
+}
+@media (min-width: 2600px) {
+  html {
+    font-size: 45px;
+  }
+  .container, .header {
+    max-width: 3500px;
+  }
+}
+@media (min-width: 3500px) {
+  html {
+    font-size: 50px;
+  }
+  .container, .header {
+    max-width: 3500px;
+  }
+}
+@media (min-width: 5000px) {
+  html {
+    font-size: 67px;
+  }
+  .container, .header {
+    max-width: 4700px;
   }
 }

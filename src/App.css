@@ -70,7 +70,7 @@ body {
 }
 .hr_section {
   width: 80%;
-  height: 1px;
+  height: .05rem;
   background-color: rgba(120, 108, 108, 0.516);
   margin: auto;
 }
@@ -109,7 +109,7 @@ main {
   font-weight: 800;
 }
 .header nav a:hover {
-  border-bottom: 3px solid #4365a0;
+  border-bottom: .2rem solid #4365a0;
 }
 .header nav a {
   transition: 0.3s ease all;
@@ -245,7 +245,7 @@ main {
 }
 .section_inicio .contenedor_inicio .contenedor1 .imgs__inicio img {
   width: 25rem;
-  border-radius: 10px;
+  border-radius: .7rem;
 }
 /* seccion sobre mí */
 .section_cv .contenedor_cv {
@@ -278,7 +278,7 @@ main {
   width: 18rem;
   height: 23rem;
   color: var(--color-theme);
-  border-radius: 20px;
+  border-radius: 1.3rem;
   object-fit: cover;
 }
 .section_cv .contenedor_cv .contenedor3 .contenedor_habilidades {
@@ -342,7 +342,7 @@ main {
   display: flex;
   width: 90%;
   margin: auto;
-  border-bottom: 1px solid gray;
+  border-bottom: .07rem solid gray;
   padding: 1rem 0.5rem;
   align-items: center;
   gap: 1rem;
@@ -438,7 +438,7 @@ main {
   form
   div
   input[type="text"]:focus {
-  border: 2px solid var(--color-theme);
+  border: .12rem solid var(--color-theme);
 }
 .section_contacto .contenedor_contacto .contenedor1 form div textarea,
 .section_contacto
@@ -460,7 +460,7 @@ main {
   width: 100%;
   background-color: #4365a0;
   color: #fff;
-  border-radius: 15px;
+  border-radius:.8rem;
   font-size: 1rem;
   outline: none;
   font-family: "PT Sans", sans-serif;
@@ -473,7 +473,7 @@ main {
   transform: scale(1.05);
 }
 .section_contacto .contenedor_contacto .contenedor1 form input[type="submit"] {
-  border-radius: 15px;
+  border-radius: 1rem;
   width: 10rem;
   border: none;
   transition: 0.3s ease all;
@@ -493,8 +493,8 @@ main {
   display: block;
 }
 .loader {
-  border: 4px solid #4365a0;
-  border-top: 4px solid #000000;
+  border: .3rem solid #4365a0;
+  border-top: .3rem solid #000000;
   border-radius: 50%;
   width: 2.5rem;
   height: 2.5rem;
@@ -599,10 +599,3 @@ main {
   }
 }
 
-/* pantallas grandes */
-
-@media (min-width: 1500px) {
-  .container, .header {
-    max-width: 1500px;
-  }
-}
