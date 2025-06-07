@@ -10,7 +10,7 @@ export default defineConfig({
       includeAssets: ['favicon.png', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
         name: 'Pablo Gutierrez',
-        short_name: 'Programador',
+        short_name: 'Pablo Gutierrez',
         description: 'Programador web con experiencia en React.js y Angular.',
         theme_color: '#000000',
         background_color: '#000000',
@@ -32,6 +32,22 @@ export default defineConfig({
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any maskable',
+          },
+        ],
+      },
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,png,jpg,jpeg,svg,woff2,woff,eot,ttf}'],
+        runtimeCaching: [
+          {
+            urlPattern: ({ request }) => request.destination === 'image',
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'images',
+              expiration: {
+                maxEntries: 50,
+                maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
+              },
+            },
           },
         ],
       },
