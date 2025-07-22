@@ -43,7 +43,7 @@
       "og_description": "Soy desarrollador frontend con experiencia en React, Angular, Laravel y Astro. Explora mi sitio para ver cómo puedo ayudarte a construir interfaces web modernas y eficientes con las últimas tecnologías."
     }
   },
- "cv": {
+  "cv": {
     "about_me": "Sobre mí 🧑🏻",
     "description1": "Disfruto desarrollar interfaces de usuario usando las tecnologías adecuadas, así como también la optimización y el SEO para el buen posicionamiento y la carga del sitio web.",
     "description2": "Mi camino en el desarrollo web comenzó cuando, de adolescente, me encontré maravillado con la posibilidad de dar vida a ideas y conceptos a través del código. He trabajado en una variedad de proyectos, desde sitios web informativos hasta tiendas en línea, siempre desafiándome a mí mismo y creciendo en el proceso.",
@@ -109,6 +109,22 @@
   "proyectos": {
     "title": "Mis proyectos",
     "projects": [
+      {
+        "link": "https://sam.j1lab.ai/",
+        "logo": "https://sam.j1lab.ai/sam.png",
+        "alt": "SAM",
+        "name": "SAM",
+        "year": "2025",
+        "description": "Hice el frontend completo de la página, tanto para móvil como para desktop. Usé Tailwind CSS y Next.js con TypeScript."
+      },
+      {
+        "link": "https://dopitec.com/",
+        "logo": "https://dopitec.com/_next/image?url=%2Fimage%2FDOPITEC_OG.png&w=640&q=80",
+        "alt": "Dopitec",
+        "name": "Dopitec",
+        "year": "2025",
+        "description": "Hice el frontend de páginas como checkout, contacto y productos etc. Incluyendo la parte administrativa. Usé Next.js con TypeScript y Tailwind CSS"
+      },
       {
         "link": "https://human.com.pe/",
         "logo": "https://human.com.pe/assets/logo_header.png",
