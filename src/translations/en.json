@@ -1,5 +1,5 @@
 {
- "header": {
+  "header": {
     "home": "Home",
     "about": "About Me",
     "projects": "Projects",
@@ -43,7 +43,7 @@
       "og_description": "I am a frontend developer with experience in React, Angular, Laravel, and Astro. Explore my site to see how I can help you build modern and efficient web interfaces with the latest technologies."
     }
   },
- "cv": {
+  "cv": {
     "about_me": "About Me 🧑🏻",
     "description1": "I enjoy developing user interfaces using the right technologies, as well as optimizing and implementing SEO for better positioning and website loading performance.",
     "description2": "My journey in web development began as a teenager when I found myself amazed by the possibility of bringing ideas and concepts to life through code. I have worked on a variety of projects, from informational websites to online stores, always challenging myself and growing in the process.",
@@ -109,6 +109,22 @@
   "proyectos": {
     "title": "My Projects",
     "projects": [
+      {
+        "link": "https://sam.j1lab.ai/",
+        "logo": "https://sam.j1lab.ai/sam.png",
+        "alt": "SAM",
+        "name": "SAM",
+        "year": "2025",
+        "description": "I did the full frontend of the site, both for mobile and desktop. I used Tailwind CSS and Next.js with TypeScript."
+      },
+      {
+        "link": "https://dopitec.com/",
+        "logo": "https://dopitec.com/_next/image?url=%2Fimage%2FDOPITEC_OG.png&w=640&q=80",
+        "alt": "Dopitec",
+        "name": "Dopitec",
+        "year": "2025",
+        "description": "I did the frontend for pages like checkout, contact, products, etc. Including the admin panel. Used Next.js with TSX and Tailwind CSS."
+      },
       {
         "link": "https://human.com.pe/",
         "logo": "https://human.com.pe/assets/logo_header.png",
