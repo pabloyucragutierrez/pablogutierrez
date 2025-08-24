@@ -20,10 +20,10 @@ export default function Error404() {
         <title>{t.meta.title}</title>
         <meta name="description" content={t.meta.description} />
         <meta name="keywords" content={t.meta.keywords} />
-        <link rel="canonical" href="https://pablogutierrez.xyz/*" />
+        <link rel="canonical" href="https://pablogutierrezz.com/*" />
         <meta property="og:title" content={t.meta.og_title} />
         <meta property="og:description" content={t.meta.og_description} />
-        <meta property="og:url" content="https://pablogutierrez.xyz/*" />
+        <meta property="og:url" content="https://pablogutierrezz.com/*" />
         <meta property="og:type" content="website" />
         <meta name="robots" content="noindex, follow" /> {/* No indexar 404 */}
       </Helmet>

@@ -20,13 +20,13 @@ export function PoliticaDePrivacidad() {
         <meta name="keywords" content={t.meta.keywords} />
         <link
           rel="canonical"
-          href="https://pablogutierrez.xyz/politica-de-privacidad"
+          href="https://pablogutierrezz.com/politica-de-privacidad"
         />
         <meta property="og:title" content={t.meta.og_title} />
         <meta property="og:description" content={t.meta.og_description} />
         <meta
           property="og:url"
-          content="https://pablogutierrez.xyz/politica-de-privacidad"
+          content="https://pablogutierrezz.com/politica-de-privacidad"
         />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
@@ -52,7 +52,7 @@ export function PoliticaDePrivacidad() {
             <p>{t.security_info}</p>
           </div>
         </div>
-      </section>
+      </section>   
     </>
   );
 }
