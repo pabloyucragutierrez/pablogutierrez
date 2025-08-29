@@ -67,7 +67,7 @@ export function Header() {
           </button>
         </div>
         <a
-          href="https://www.instagram.com/pabloyucragutierrez/"
+          href="https://www.instagram.com/pablogutierrezbg/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label={language === "es" ? "Instagram de Pablo Gutierrez" : "Pablo Gutierrez's Instagram"}
