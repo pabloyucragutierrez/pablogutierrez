@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet"; 
+import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-dom";
 import { useLanguage } from "../../LanguageContext";
 import translations from "../../translations/es.json";
 import translationsEn from "../../translations/en.json";
+import { Header } from "../components/Header";
 
 export default function Error404() {
   const { language } = useLanguage();
@@ -27,6 +28,7 @@ export default function Error404() {
         <meta property="og:type" content="website" />
         <meta name="robots" content="noindex, follow" /> {/* No indexar 404 */}
       </Helmet>
+      <Header />
       <section className="section section_error">
         <h2
           className="error_ruta"

@@ -5,6 +5,7 @@ import pg from "/foto-home.png";
 import { useLanguage } from "../../LanguageContext";
 import translations from "../../translations/es.json";
 import translationsEn from "../../translations/en.json";
+import { Header } from "../components/Header";
 
 export function Contacto() {
   const { language } = useLanguage();
@@ -19,11 +20,15 @@ export function Contacto() {
         <link rel="canonical" href="https://pablogutierrezz.com/contacto" />
         <meta property="og:title" content={t.meta.og_title} />
         <meta property="og:description" content={t.meta.og_description} />
-        <meta property="og:url" content="https://pablogutierrezz.com/contacto" />
+        <meta
+          property="og:url"
+          content="https://pablogutierrezz.com/contacto"
+        />
         <meta property="og:image" content={pg} />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+      <Header />
       <section className="section section_contacto">
         <h2 className="title_section left">{t.title}</h2>
         <div className="section_container contenedor_contacto">
@@ -40,7 +45,9 @@ export function Contacto() {
               <div>
                 <label htmlFor="nombres">
                   {t.form.name_label}{" "}
-                  <span className="error error_nombre">{t.form.name_error}</span>
+                  <span className="error error_nombre">
+                    {t.form.name_error}
+                  </span>
                 </label>
                 <input
                   type="text"
@@ -57,7 +64,9 @@ export function Contacto() {
               <div>
                 <label htmlFor="email">
                   {t.form.email_label}{" "}
-                  <span className="error error_email">{t.form.email_error}</span>
+                  <span className="error error_email">
+                    {t.form.email_error}
+                  </span>
                 </label>
                 <input
                   type="email"

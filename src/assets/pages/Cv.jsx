@@ -18,6 +18,7 @@ import pg from "/foto-home.png";
 import { useLanguage } from "../../LanguageContext";
 import translations from "../../translations/es.json";
 import translationsEn from "../../translations/en.json";
+import { Header } from "../components/Header";
 
 export function Cv() {
   const { language } = useLanguage();
@@ -25,20 +26,20 @@ export function Cv() {
 
   // Mapa de imágenes para las habilidades
   const skillImages = {
-    "Angular": angular,
+    Angular: angular,
     "React.js": react,
     "Next.js": nextjs,
-    "Astro": astro,
-    "Laravel": laravel,
-    "Bootstrap": bootstrap,
+    Astro: astro,
+    Laravel: laravel,
+    Bootstrap: bootstrap,
     "Tailwind CSS": tailwind,
-    "GitHub": github,
-    "Git": git,
-    "AWS": aws,
-    "Sass": sass,
-    "HTML": html,
-    "CSS": css,
-    "JavaScript": javascript,
+    GitHub: github,
+    Git: git,
+    AWS: aws,
+    Sass: sass,
+    HTML: html,
+    CSS: css,
+    JavaScript: javascript,
   };
 
   return (
@@ -50,11 +51,15 @@ export function Cv() {
         <link rel="canonical" href="https://pablogutierrezz.com/sobre-mi" />
         <meta property="og:title" content={t.meta.og_title} />
         <meta property="og:description" content={t.meta.og_description} />
-        <meta property="og:url" content="https://pablogutierrezz.com/sobre-mi" />
+        <meta
+          property="og:url"
+          content="https://pablogutierrezz.com/sobre-mi"
+        />
         <meta property="og:image" content={pg} />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+      <Header />
       <section className="section section_cv">
         <h2 className="title_section left">{t.about_me}</h2>
         <div className="section_container contenedor_cv">
@@ -78,7 +83,11 @@ export function Cv() {
                   <li>{t.born}</li>
                   <li>{t.live}</li>
                   <li>
-                    <a href={t.cv_url} target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={t.cv_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       {t.cv_link}
                     </a>
                   </li>

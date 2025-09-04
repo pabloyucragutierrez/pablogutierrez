@@ -70,7 +70,7 @@ body {
 }
 .hr_section {
   width: 80%;
-  height: .05rem;
+  height: 0.05rem;
   background-color: rgba(120, 108, 108, 0.516);
   margin: auto;
 }
@@ -81,6 +81,10 @@ main {
   /* align-items: center; */
 }
 /* header */
+.header.hmovil {
+  padding: 0;
+  position: static;
+}
 .header {
   max-width: 1200px;
   width: 100%;
@@ -109,7 +113,7 @@ main {
   font-weight: 800;
 }
 .header nav a:hover {
-  border-bottom: .2rem solid #4365a0;
+  border-bottom: 0.2rem solid #4365a0;
 }
 .header nav a {
   transition: 0.3s ease all;
@@ -130,11 +134,11 @@ main {
   font-size: var(--size-icons);
   color: var(--color-theme);
 }
-.header .social_media .change_language .img_language img{
+.header .social_media .change_language .img_language img {
   width: 1.7rem;
   filter: invert(1);
 }
-.header .social_media .change_language .img_language{
+.header .social_media .change_language .img_language {
   transition: 0.5s ease all;
   background-color: transparent;
   outline: none;
@@ -234,7 +238,7 @@ main {
   font-size: var(--size-text);
   margin-bottom: 1rem;
 }
-.section_inicio .contenedor_inicio .contenedor1 .imgs__inicio{
+.section_inicio .contenedor_inicio .contenedor1 .imgs__inicio {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -245,7 +249,7 @@ main {
 }
 .section_inicio .contenedor_inicio .contenedor1 .imgs__inicio img {
   width: 25rem;
-  border-radius: .7rem;
+  border-radius: 0.7rem;
 }
 /* seccion sobre mí */
 .section_cv .contenedor_cv {
@@ -342,7 +346,7 @@ main {
   display: flex;
   width: 90%;
   margin: auto;
-  border-bottom: .07rem solid gray;
+  border-bottom: 0.07rem solid gray;
   padding: 1rem 0.5rem;
   align-items: center;
   gap: 1rem;
@@ -438,7 +442,7 @@ main {
   form
   div
   input[type="text"]:focus {
-  border: .12rem solid var(--color-theme);
+  border: 0.12rem solid var(--color-theme);
 }
 .section_contacto .contenedor_contacto .contenedor1 form div textarea,
 .section_contacto
@@ -460,7 +464,7 @@ main {
   width: 100%;
   background-color: #4365a0;
   color: #fff;
-  border-radius:.8rem;
+  border-radius: 0.8rem;
   font-size: 1rem;
   outline: none;
   font-family: "PT Sans", sans-serif;
@@ -493,8 +497,8 @@ main {
   display: block;
 }
 .loader {
-  border: .3rem solid #4365a0;
-  border-top: .3rem solid #000000;
+  border: 0.3rem solid #4365a0;
+  border-top: 0.3rem solid #000000;
   border-radius: 50%;
   width: 2.5rem;
   height: 2.5rem;
@@ -513,7 +517,15 @@ main {
   }
 }
 
-
+.show_desktop {
+  display: block;
+}
+.show_movil {
+  display: none;
+}
+.contenedor_home.movil {
+  display: none;
+}
 /* movil y tablet*/
 @media (max-width: 900px) {
   .section_home .contenedor_home .text h2 {
@@ -528,6 +540,18 @@ main {
   :root {
     --size-text: 1rem;
   }
+  .show_desktop {
+    display: none;
+  }
+  .show_movil {
+    display: block;
+  }
+  .section_home .contenedor_home.movil {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
   .section_cv .contenedor_cv .contenedor3 .contenedor_habilidades button {
     width: 100%;
     justify-content: flex-start;
@@ -541,6 +565,9 @@ main {
   .section {
     width: 95%;
     margin-top: 11rem;
+  }
+  .header.header.hmovil {
+    gap: 1.5rem;
   }
   .header {
     justify-content: center;
@@ -561,8 +588,16 @@ main {
     width: 100%;
     justify-content: space-evenly;
   }
+  .section_home {
+    height: 100dvh;
+  }
+  .section_home .contenedor_home .text h2 span {
+    font-size: 2.3rem;
+    font-weight: 900;
+  }
   .section_home .contenedor_home .text h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 500;
     text-align: center;
     transform: rotate(0);
   }
@@ -570,7 +605,8 @@ main {
     width: 9rem;
     height: 9rem;
   }
-  .section_home .contenedor_home {
+  .section_home .contenedor_home.desktop {
+    display: none;
     flex-direction: column-reverse;
     gap: 1rem;
   }
@@ -588,7 +624,6 @@ main {
   .section_inicio .contenedor_inicio .contenedor1 .imgs__inicio img {
     width: 100%;
   }
-  
 }
 @media (max-width: 280px) {
   .section_home .contenedor_home .text h2 {
@@ -598,4 +633,3 @@ main {
     font-size: 0.9rem;
   }
 }
-

@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter basename="/">
         <LanguageProvider>
           <ScrollToTop />
-          <Header />
+          {/* <Header /> */}
           <main>
             <Routes>
               <Route path="/" element={<Home />} />
