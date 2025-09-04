@@ -5,7 +5,6 @@ import pg from "/foto-home.png";
 import { useLanguage } from "../../LanguageContext";
 import translations from "../../translations/es.json";
 import translationsEn from "../../translations/en.json";
-import { Header } from "../components/Header";
 
 export function Contacto() {
   const { language } = useLanguage();
@@ -28,7 +27,6 @@ export function Contacto() {
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <Header />
       <section className="section section_contacto">
         <h2 className="title_section left">{t.title}</h2>
         <div className="section_container contenedor_contacto">

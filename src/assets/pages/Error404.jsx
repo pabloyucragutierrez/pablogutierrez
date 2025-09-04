@@ -4,7 +4,6 @@ import { useLocation } from "react-router-dom";
 import { useLanguage } from "../../LanguageContext";
 import translations from "../../translations/es.json";
 import translationsEn from "../../translations/en.json";
-import { Header } from "../components/Header";
 
 export default function Error404() {
   const { language } = useLanguage();
@@ -26,9 +25,8 @@ export default function Error404() {
         <meta property="og:description" content={t.meta.og_description} />
         <meta property="og:url" content="https://pablogutierrezz.com/*" />
         <meta property="og:type" content="website" />
-        <meta name="robots" content="noindex, follow" /> {/* No indexar 404 */}
+        <meta name="robots" content="noindex, follow" />
       </Helmet>
-      <Header />
       <section className="section section_error">
         <h2
           className="error_ruta"
