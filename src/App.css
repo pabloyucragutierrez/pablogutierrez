@@ -28,7 +28,7 @@
   font-size: 4rem;
 }
 body {
-  min-height: 100vh;
+  min-height: 100dvh;
   position: relative;
   background-color: #0b0e2d;
   transition: 0.5s ease all;
