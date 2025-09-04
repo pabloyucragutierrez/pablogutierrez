@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { useLanguage } from "../../LanguageContext";
 import translations from "../../translations/es.json";
 import translationsEn from "../../translations/en.json";
+import { Header } from "../components/Header";
 
 export function PoliticaDePrivacidad() {
   const { language } = useLanguage();
@@ -31,6 +32,7 @@ export function PoliticaDePrivacidad() {
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+      <Header />
       <section className="section section_pdp">
         <h2 className="title_section right">{t.title}</h2>
         <div className="section_container contenedor_pdp">

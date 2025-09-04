@@ -6,6 +6,7 @@ import { SinFoto } from "./SinFoto";
 import { useLanguage } from "../../LanguageContext";
 import translations from "../../translations/es.json";
 import translationsEn from "../../translations/en.json";
+import { Header } from "../components/Header";
 
 export function Proyectos() {
   const { language } = useLanguage();
@@ -29,6 +30,7 @@ export function Proyectos() {
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+      <Header />
       <section className="section section_proyectos">
         <h2 className="title_section right">{t.title}</h2>
         <div className="section_container contenedor_proyectos">

@@ -18,6 +18,7 @@ import pg from "/foto-home.png";
 import { useLanguage } from "../../LanguageContext";
 import translations from "../../translations/es.json";
 import translationsEn from "../../translations/en.json";
+import { Header } from "../components/Header";
 
 export function Cv() {
   const { language } = useLanguage();
@@ -58,6 +59,7 @@ export function Cv() {
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+      <Header />
       <section className="section section_cv">
         <h2 className="title_section left">{t.about_me}</h2>
         <div className="section_container contenedor_cv">

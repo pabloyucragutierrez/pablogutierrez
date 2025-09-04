@@ -1,7 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
-import { Header } from "./assets/components/Header";
-import { HeaderMovil } from "./assets/components/HeaderMovil";
 import { Inicio } from "./assets/pages/Inicio";
 import { Proyectos } from "./assets/pages/Proyectos";
 import { Cv } from "./assets/pages/Cv";
@@ -19,9 +17,6 @@ function App() {
       <BrowserRouter basename="/">
         <LanguageProvider>
           <ScrollToTop />
-          <div className="show_desktop">
-            <Header />
-          </div>
           <main>
             <Routes>
               <Route path="/" element={<Home />} />
@@ -38,9 +33,6 @@ function App() {
               <Route path="*" element={<Error404 />} />
             </Routes>
           </main>
-          <div className="show_movil">
-            <HeaderMovil />
-          </div>
           <Footer />
         </LanguageProvider>
       </BrowserRouter>

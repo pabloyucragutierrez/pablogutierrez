@@ -6,9 +6,11 @@ import english from "/english.svg";
 import { useLanguage } from "../../LanguageContext";
 import translations from "../../translations/es.json";
 import translationsEn from "../../translations/en.json";
+import { useEffect, useRef } from "react";
 
 export function HeaderMovil() {
   const { language, changeLanguage, theme, changeTheme } = useLanguage();
+  const headerRef = useRef(null);
 
   const t = language === "es" ? translations.header : translationsEn.header;
 
@@ -27,13 +29,14 @@ export function HeaderMovil() {
     ThemeDark(changeTheme);
   };
 
+  useEffect(() => {
+    if (headerRef.current) {
+      headerRef.current.style.backgroundColor = theme ? "#0b0e2d" : "#fff";
+    }
+  }, [theme]);
+
   return (
-    <header className="header hmovil">
-      {/* <div className="logo">
-        <Link to="/" aria-label={t.logo_aria_label}>
-          Pablo Gutierrez
-        </Link>
-      </div> */}
+    <header className="header hmovil" ref={headerRef}>
       <nav className="menu_header" role="navigation">
         <ul>
           <li>
