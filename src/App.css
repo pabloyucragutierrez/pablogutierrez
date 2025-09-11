@@ -589,7 +589,8 @@ main {
     justify-content: space-evenly;
   }
   .section_home {
-    height: 100dvh;
+    /* height: 100dvh; */
+    height: 95dvh;
   }
   .section_home .contenedor_home .text h2 span {
     font-size: 2.3rem;
