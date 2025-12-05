@@ -110,6 +110,14 @@
     "title": "My Projects",
     "projects": [
       {
+        "link": "https://automotivdelperu.com/",
+        "logo": "https://automotivdelperu.com/_next/image?url=%2Fautomotiv.png&w=640&q=75",
+        "alt": "Automotiv",
+        "name": "Automotiv",
+        "year": "2025",
+        "description": "I did the entire frontend of the site using Next.js with TypeScript and Tailwind CSS."
+      },
+      {
         "link": "https://sam.j1lab.ai/",
         "logo": "https://sam.j1lab.ai/sam.png",
         "alt": "SAM",
