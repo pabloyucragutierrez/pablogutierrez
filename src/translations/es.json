@@ -55,6 +55,8 @@
     "cv_url": "https://drive.google.com/file/d/1wk-EHIH1Tsa5ZaU7d6dv8Bg-HpMLk6BA/view?usp=sharing",
     "skills": "Mis habilidades",
     "skills_list": [
+      { "name": "MariaDB", "level": "(Básico)" },
+      { "name": "NestJS", "level": "(Básico)" },
       { "name": "Angular", "level": "" },
       { "name": "React.js", "level": "" },
       { "name": "Next.js", "level": "" },
@@ -64,7 +66,6 @@
       { "name": "Tailwind CSS", "level": "" },
       { "name": "GitHub", "level": "" },
       { "name": "Git", "level": "" },
-      { "name": "AWS", "level": "(Básico)" },
       { "name": "Sass", "level": "" },
       { "name": "HTML", "level": "" },
       { "name": "CSS", "level": "" },
@@ -109,6 +110,14 @@
   "proyectos": {
     "title": "Mis proyectos",
     "projects": [
+      {
+        "link": "https://residencialasdalias.pe/",
+        "logo": "https://residencialasdalias.pe/logo_header.png",
+        "alt": "Residencia las Dalias",
+        "name": "Residencia las Dalias",
+        "year": "2026",
+        "description": "Desarrollé la página completa usando Angular para el frontend y NestJS para el backend."
+      },
       {
         "link": "https://automotivdelperu.com/",
         "logo": "https://automotivdelperu.com/_next/image?url=%2Fautomotiv.png&w=640&q=75",

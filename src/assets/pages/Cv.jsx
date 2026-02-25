@@ -11,6 +11,8 @@ import html from "/images/icono-html.png";
 import css from "/images/icono-css.png";
 import javascript from "/images/icono-javascript.png";
 import angular from "/images/icono-angular.png";
+import mariadb from "/images/icono-mariadb.png";
+import nestjs from "/images/icono-nestjs.webp";
 import astro from "/images/icono-astro.png";
 import tailwind from "/images/icono-tailwind.png";
 import nextjs from "/images/icono-nextjs.png";
@@ -40,6 +42,8 @@ export function Cv() {
     HTML: html,
     CSS: css,
     JavaScript: javascript,
+    MariaDB: mariadb,
+    NestJS: nestjs,
   };
 
   return (
@@ -105,7 +109,7 @@ export function Cv() {
                     src={skillImages[skill.name]}
                     alt={skill.name}
                     className={
-                      skill.name === "Next.js"
+                      skill.name === "Next.js" || skill.name === "MariaDB"
                         ? "filter_img2"
                         : skill.name === "Astro" || skill.name === "GitHub"
                         ? "filter_img"
