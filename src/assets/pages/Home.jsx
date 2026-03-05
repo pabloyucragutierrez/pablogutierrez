@@ -10,6 +10,30 @@ import { HeaderMovil } from "../components/HeaderMovil";
 export function Home() {
   const { language } = useLanguage() || { language: "es" };
   const t = language === "es" ? translations.home : translationsEn.home;
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Pablo Yucra Gutierrez",
+    alternateName: ["Pablo Gutierrez", "Pablo Gutiérrez"],
+    jobTitle: "Web Developer",
+    url: "https://pablogutierrezz.com/",
+    image: "https://pablogutierrezz.com/foto-home.png",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Cusco",
+      addressCountry: "PE",
+    },
+    knowsAbout: [
+      "React",
+      "Angular",
+      "NestJS",
+      "MariaDB",
+      "Astro",
+      "Laravel",
+      "SEO",
+    ],
+    sameAs: ["https://www.linkedin.com/in/pabloyucragutierrez/"],
+  };
 
   useEffect(() => {
     document.title = t.meta.title;
@@ -27,7 +51,15 @@ export function Home() {
         <meta property="og:url" content="https://pablogutierrezz.com" />
         <meta property="og:image" content={pg} />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Pablo Gutierrez" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={t.meta.og_title} />
+        <meta name="twitter:description" content={t.meta.og_description} />
+        <meta name="twitter:image" content={pg} />
         <meta name="robots" content="index, follow" />
+        <script type="application/ld+json">
+          {JSON.stringify(personSchema)}
+        </script>
       </Helmet>
       <div className="show_desktop">
         <Header />

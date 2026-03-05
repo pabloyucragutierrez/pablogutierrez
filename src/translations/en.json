@@ -23,24 +23,24 @@
     "title": "Pablo Gutierrez, <br /> creative and dedicated... <br /> <span>Web Developer</span>",
     "meta": {
       "title": "Pablo Gutierrez",
-      "description": "Passionate and creative frontend developer with experience in frontend technologies. Committed to creating intuitive, attractive, and user-centered interfaces.",
-      "keywords": "Pablo Gutierrez, Frontend Developer, Web Developer, Frontend Development, React, Web Development, Angular, Astro, Laravel, Code",
+      "description": "Pablo Yucra Gutierrez is a web developer based in Cusco, Peru, with frontend and backend experience using React, Angular, NestJS, MariaDB, Astro, and Laravel.",
+      "keywords": "Pablo Yucra Gutierrez, Pablo Gutierrez, Web Developer, Cusco, Peru, NestJS, MariaDB, React, Angular, Astro, Laravel, SEO",
       "og_title": "Pablo Gutierrez",
-      "og_description": "Passionate and creative frontend developer with experience in frontend technologies. Committed to creating intuitive, attractive, and user-centered interfaces."
+      "og_description": "Pablo Yucra Gutierrez is a web developer based in Cusco, Peru, with frontend and backend experience using React, Angular, NestJS, MariaDB, Astro, and Laravel."
     }
   },
   "inicio": {
     "greeting": "Hello 👋🏻",
     "welcome": "Hello! Welcome to my website. 😀",
-    "description": "I transform designs into code using HTML, CSS, and JavaScript, and I have experience with frameworks like React, Astro, Angular, and Laravel. With the ability to consume APIs, I have developed interactive and responsive web applications. I am always seeking opportunities to learn and apply the latest trends in frontend technology, aiming to create intuitive and modern interfaces.",
-    "projects_info": "In the Projects section, you can find some of the projects I have participated in as a frontend developer.",
-    "code_image_alt": "Frontend development",
+    "description": "I transform designs into code using HTML, CSS, and JavaScript, and I have experience with React, Astro, Angular, Laravel, NestJS, and MariaDB. With the ability to consume and build APIs, I have developed interactive and responsive web applications.",
+    "projects_info": "In the Projects section, you can find some of the projects I have participated in as a web developer.",
+    "code_image_alt": "Web development",
     "meta": {
       "title": "Pablo Gutierrez - Home",
-      "description": "I am a frontend developer with experience in React, Angular, Laravel, and Astro. Explore my site to see how I can help you build modern and efficient web interfaces with the latest technologies.",
-      "keywords": "Home, Pablo Gutierrez, Frontend Developer, Web Developer, Frontend Development, React, Web Development, Angular, Astro, Laravel, Code",
+      "description": "I am Pablo Yucra Gutierrez, a web developer in Cusco, Peru, with experience in React, Angular, Laravel, Astro, NestJS, and MariaDB.",
+      "keywords": "Home, Pablo Yucra Gutierrez, Pablo Gutierrez, Web Developer, Cusco, Peru, React, Angular, NestJS, MariaDB, Astro, Laravel",
       "og_title": "Pablo Gutierrez - Hello 👋🏻",
-      "og_description": "I am a frontend developer with experience in React, Angular, Laravel, and Astro. Explore my site to see how I can help you build modern and efficient web interfaces with the latest technologies."
+      "og_description": "I am Pablo Yucra Gutierrez, a web developer in Cusco, Peru, with experience in React, Angular, Laravel, Astro, NestJS, and MariaDB."
     }
   },
   "cv": {
@@ -79,10 +79,10 @@
     ],
     "meta": {
       "title": "Pablo Gutierrez - About Me",
-      "description": "Learn more about my professional journey and my focus on frontend development. In this section, I share my story and what drives me in the world of technology.",
-      "keywords": "About Me, Pablo Gutierrez, Frontend Developer, Web Developer, Frontend Development, React, Web Development, Angular, Astro, Laravel, Code",
+      "description": "Learn more about my professional journey as a web developer. I share my story, frontend and backend experience, and technologies such as NestJS and MariaDB.",
+      "keywords": "About Me, Pablo Yucra Gutierrez, Pablo Gutierrez, Web Developer, Frontend Development, Backend Development, NestJS, MariaDB, React, Angular, Astro, Laravel",
       "og_title": "Pablo Gutierrez - About Me",
-      "og_description": "Learn more about my professional journey and my focus on frontend development. In this section, I share my story and what drives me in the world of technology."
+      "og_description": "Learn more about my professional journey as a web developer. I share my story, frontend and backend experience, and technologies such as NestJS and MariaDB."
     }
   },
   "contacto": {
@@ -102,7 +102,7 @@
     "meta": {
       "title": "Pablo Gutierrez - Contact",
       "description": "You can get in touch with me by sending an email to pabloyucragutierrez@gmail.com or filling out the form on this page to assist you with whatever you need.",
-      "keywords": "Contact, Pablo Gutierrez, Frontend Developer, Web Developer, Frontend Development, React, Web Development, Angular, Astro, Laravel, Code",
+      "keywords": "Contact, Pablo Yucra Gutierrez, Pablo Gutierrez, Web Developer, Cusco, Peru, NestJS, MariaDB, React, Angular, Astro, Laravel",
       "og_title": "Pablo Gutierrez - Contact Me",
       "og_description": "You can get in touch with me by sending an email to pabloyucragutierrez@gmail.com or filling out the form on this page to assist you with whatever you need."
     }
@@ -273,10 +273,10 @@
     ],
     "meta": {
       "title": "Pablo Gutierrez - Projects",
-      "description": "Check out some of the projects I’ve worked on as a frontend developer.",
-      "keywords": "Projects, Pablo Gutierrez, Frontend Developer, Web Developer, Frontend Development, React, Web Development, Angular, Astro, Laravel, Code",
+      "description": "Check out some of the projects I have worked on as a web developer.",
+      "keywords": "Projects, Pablo Yucra Gutierrez, Pablo Gutierrez, Web Developer, NestJS, MariaDB, React, Angular, Astro, Laravel",
       "og_title": "Pablo Gutierrez - My Projects",
-      "og_description": "Check out some of the projects I’ve worked on as a frontend developer."
+      "og_description": "Check out some of the projects I have worked on as a web developer."
     }
   },
   "politica": {
