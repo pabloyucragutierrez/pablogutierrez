@@ -1,4 +1,4 @@
-{
+﻿{
   "header": {
     "home": "Home",
     "about": "About Me",
@@ -17,7 +17,7 @@
   "footer": {
     "developed_by": "Developed by",
     "name": "Pablo Gutierrez",
-    "year": "© 2025"
+    "year": "© 2026"
   },
   "home": {
     "title": "Pablo Gutierrez, <br /> creative and dedicated... <br /> <span>Web Developer</span>",
