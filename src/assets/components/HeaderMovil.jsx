@@ -70,18 +70,26 @@ export function HeaderMovil() {
           </button>
         </div>
         <a
-          href="https://www.instagram.com/pablogutierrezbg/"
+          href="https://wa.me/51997412340?text=Hola%20Pablo,%20vi%20tu%20portafolio%20de%20desarrollador%20web%20y%20me%20gustaria%20hablar%20sobre%20un%20proyecto."
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={language === "es" ? "Instagram de Pablo Gutierrez" : "Pablo Gutierrez's Instagram"}
+          aria-label={
+            language === "es"
+              ? "WhatsApp de Pablo Gutierrez"
+              : "Pablo Gutierrez's WhatsApp"
+          }
         >
-          <i className="bx bxl-instagram"></i>
+          <i className="bx bxl-whatsapp"></i>
         </a>
         <a
           href="https://github.com/pabloyucragutierrez"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={language === "es" ? "GitHub de Pablo Gutierrez" : "Pablo Gutierrez's GitHub"}
+          aria-label={
+            language === "es"
+              ? "GitHub de Pablo Gutierrez"
+              : "Pablo Gutierrez's GitHub"
+          }
         >
           <i className="bx bxl-github"></i>
         </a>
@@ -89,7 +97,11 @@ export function HeaderMovil() {
           href="https://www.linkedin.com/in/pabloyucragutierrez/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={language === "es" ? "LinkedIn de Pablo Gutierrez" : "Pablo Gutierrez's LinkedIn"}
+          aria-label={
+            language === "es"
+              ? "LinkedIn de Pablo Gutierrez"
+              : "Pablo Gutierrez's LinkedIn"
+          }
         >
           <i className="bx bxl-linkedin"></i>
         </a>
